@@ -1,0 +1,11 @@
+- ros_topic_name: "tf"
+  gz_topic_name: "model/MR-Buggy3/tf"
+  ros_type_name: "tf2_msgs/msg/TFMessage"
+  gz_type_name: "ignition.msgs.Pose_V"
+  direction: GZ_TO_ROS
+
+- ros_topic_name: "lidar"
+  gz_topic_name: "MR-Buggy3/lidar_link/gpu_lidar"
+  ros_type_name: "sensor_msgs/msg/LaserScan"
+  gz_type_name: "ignition.msgs.LaserScan"
+  direction: GZ_TO_ROS

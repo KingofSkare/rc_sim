@@ -1,0 +1,6 @@
+[31mCMake Error at cmake_install.cmake:603 (file):
+  file INSTALL cannot find
+  "/home/ingejohan/Workspaces/ros2_cpp_ws/src/udemy_ros2_pkg/worlds": No such
+  file or directory.
+
+[0m

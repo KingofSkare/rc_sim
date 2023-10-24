@@ -1,0 +1,47 @@
+Panels:
+  - Class: rviz/Displays
+    Help Height: 78
+    Name: Displays
+    Property Tree Widget:
+      Expanded: ~
+      Splitter Ratio: 0.5
+    Tree Height: 377
+  - Class: rviz/Selection
+    Name: Selection
+  - Class: rviz/Tool Properties
+    Name: Tool Properties
+Global Options:
+  Background Color: 48; 48; 48
+  Fixed Frame: world
+Grid:
+  Cell Size: 1
+  Color: 160; 160; 164
+  Enabled: true
+  Line Style:
+    Line Width: 0.03
+    Value: Lines
+  Normal Cell Count: 0
+  Plane: XY
+  Plane Cell Count: 10
+  Reference Frame: <Fixed Frame>
+RobotModel:
+  Enabled: true
+  Robot Description: robot_description
+  TF Prefix: ''
+  Update Interval: 0
+  Value: true
+TF:
+  Enabled: true
+  Frame Timeout: 15
+  Frames:
+    All Enabled: false
+  Marker Scale: 1
+  Show Arrows: true
+  Show Axes: true
+  Show Names: true
+  Tree:
+    Class: rviz/Property
+    separators: ~
+    Value: ''
+  Update Interval: 0
+  Value: true

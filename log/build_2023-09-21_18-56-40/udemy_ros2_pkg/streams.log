@@ -1,0 +1,69 @@
+[0.013s] Invoking command in '/home/ingejohan/Workspaces/build/udemy_ros2_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ingejohan/ros2_ws/install/rover:/home/ingejohan/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake /home/ingejohan/Workspaces/ros2_cpp_ws/src/udemy_ros2_pkg -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ingejohan/Workspaces/install/udemy_ros2_pkg
+[0.056s] -- The C compiler identification is GNU 11.4.0
+[0.103s] -- The CXX compiler identification is GNU 11.4.0
+[0.110s] -- Detecting C compiler ABI info
+[0.174s] -- Detecting C compiler ABI info - done
+[0.184s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.184s] -- Detecting C compile features
+[0.184s] -- Detecting C compile features - done
+[0.188s] -- Detecting CXX compiler ABI info
+[0.271s] -- Detecting CXX compiler ABI info - done
+[0.281s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.281s] -- Detecting CXX compile features
+[0.282s] -- Detecting CXX compile features - done
+[0.284s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.452s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[0.507s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.529s] -- Found rclcpp: 16.0.5 (/opt/ros/humble/share/rclcpp/cmake)
+[0.567s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.572s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.579s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.592s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.611s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.680s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.682s] -- Found rmw_fastrtps_cpp: 6.2.3 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.763s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.787s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.830s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.838s] -- Looking for pthread.h
+[0.896s] -- Looking for pthread.h - found
+[0.897s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.966s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.968s] -- Found Threads: TRUE  
+[1.150s] -- Found ament_lint_auto: 0.12.7 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.221s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.221s] -- Configured cppcheck include dirs: 
+[1.221s] -- Configured cppcheck exclude dirs and/or files: 
+[1.221s] -- Added test 'lint_cmake' to check CMake code style
+[1.222s] -- Added test 'uncrustify' to check C / C++ code style
+[1.222s] -- Configured uncrustify additional arguments: 
+[1.223s] -- Added test 'xmllint' to check XML markup files
+[1.224s] -- Configuring done
+[1.231s] -- Generating done
+[1.232s] -- Build files have been written to: /home/ingejohan/Workspaces/build/udemy_ros2_pkg
+[1.239s] Invoked command in '/home/ingejohan/Workspaces/build/udemy_ros2_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ingejohan/ros2_ws/install/rover:/home/ingejohan/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake /home/ingejohan/Workspaces/ros2_cpp_ws/src/udemy_ros2_pkg -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ingejohan/Workspaces/install/udemy_ros2_pkg
+[1.241s] Invoking command in '/home/ingejohan/Workspaces/build/udemy_ros2_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ingejohan/ros2_ws/install/rover:/home/ingejohan/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/ingejohan/Workspaces/build/udemy_ros2_pkg -- -j16 -l16
+[1.280s] [ 50%] [32mBuilding CXX object CMakeFiles/publisher.dir/src/publisher.cpp.o[0m
+[5.108s] [100%] [32m[1mLinking CXX executable publisher[0m
+[5.260s] [100%] Built target publisher
+[5.269s] Invoked command in '/home/ingejohan/Workspaces/build/udemy_ros2_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ingejohan/ros2_ws/install/rover:/home/ingejohan/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/ingejohan/Workspaces/build/udemy_ros2_pkg -- -j16 -l16
+[5.295s] Invoking command in '/home/ingejohan/Workspaces/build/udemy_ros2_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ingejohan/ros2_ws/install/rover:/home/ingejohan/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/ingejohan/Workspaces/build/udemy_ros2_pkg
+[5.301s] -- Install configuration: ""
+[5.301s] -- Execute custom install script
+[5.302s] -- Symlinking: /home/ingejohan/Workspaces/install/udemy_ros2_pkg/lib/udemy_ros2_pkg/publisher
+[5.309s] -- Symlinking: /home/ingejohan/Workspaces/install/udemy_ros2_pkg/share/ament_index/resource_index/package_run_dependencies/udemy_ros2_pkg
+[5.316s] -- Symlinking: /home/ingejohan/Workspaces/install/udemy_ros2_pkg/share/ament_index/resource_index/parent_prefix_path/udemy_ros2_pkg
+[5.324s] -- Symlinking: /home/ingejohan/Workspaces/install/udemy_ros2_pkg/share/udemy_ros2_pkg/environment/ament_prefix_path.sh
+[5.331s] -- Symlinking: /home/ingejohan/Workspaces/install/udemy_ros2_pkg/share/udemy_ros2_pkg/environment/ament_prefix_path.dsv
+[5.337s] -- Symlinking: /home/ingejohan/Workspaces/install/udemy_ros2_pkg/share/udemy_ros2_pkg/environment/path.sh
+[5.344s] -- Symlinking: /home/ingejohan/Workspaces/install/udemy_ros2_pkg/share/udemy_ros2_pkg/environment/path.dsv
+[5.351s] -- Symlinking: /home/ingejohan/Workspaces/install/udemy_ros2_pkg/share/udemy_ros2_pkg/local_setup.bash
+[5.358s] -- Symlinking: /home/ingejohan/Workspaces/install/udemy_ros2_pkg/share/udemy_ros2_pkg/local_setup.sh
+[5.365s] -- Symlinking: /home/ingejohan/Workspaces/install/udemy_ros2_pkg/share/udemy_ros2_pkg/local_setup.zsh
+[5.372s] -- Symlinking: /home/ingejohan/Workspaces/install/udemy_ros2_pkg/share/udemy_ros2_pkg/local_setup.dsv
+[5.378s] -- Symlinking: /home/ingejohan/Workspaces/install/udemy_ros2_pkg/share/udemy_ros2_pkg/package.dsv
+[5.385s] -- Symlinking: /home/ingejohan/Workspaces/install/udemy_ros2_pkg/share/ament_index/resource_index/packages/udemy_ros2_pkg
+[5.392s] -- Symlinking: /home/ingejohan/Workspaces/install/udemy_ros2_pkg/share/udemy_ros2_pkg/cmake/udemy_ros2_pkgConfig.cmake
+[5.398s] -- Symlinking: /home/ingejohan/Workspaces/install/udemy_ros2_pkg/share/udemy_ros2_pkg/cmake/udemy_ros2_pkgConfig-version.cmake
+[5.405s] -- Symlinking: /home/ingejohan/Workspaces/install/udemy_ros2_pkg/share/udemy_ros2_pkg/package.xml
+[5.414s] Invoked command in '/home/ingejohan/Workspaces/build/udemy_ros2_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ingejohan/ros2_ws/install/rover:/home/ingejohan/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/ingejohan/Workspaces/build/udemy_ros2_pkg

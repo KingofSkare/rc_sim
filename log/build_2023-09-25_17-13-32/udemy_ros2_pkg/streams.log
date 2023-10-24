@@ -1,0 +1,182 @@
+[0.015s] Invoking command in '/home/ingejohan/Workspaces/build/udemy_ros2_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ingejohan/ros2_ws/install/rover:/home/ingejohan/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/ingejohan/Workspaces/build/udemy_ros2_pkg -- -j16 -l16
+[0.070s] [  1%] Built target udemy_ros2_pkg__cpp
+[0.072s] [  8%] Built target udemy_ros2_pkg__rosidl_generator_c
+[0.077s] [ 11%] Built target speed_calc
+[0.077s] [ 14%] Built target publisher
+[0.078s] [ 19%] Built target subscriber
+[0.079s] [ 20%] Built target rpm_pub
+[0.079s] [ 20%] Built target ament_cmake_python_symlink_udemy_ros2_pkg
+[0.101s] [ 31%] Built target udemy_ros2_pkg__rosidl_typesupport_c
+[0.101s] [ 35%] Built target udemy_ros2_pkg__rosidl_typesupport_cpp
+[0.104s] [ 43%] Built target udemy_ros2_pkg__rosidl_typesupport_fastrtps_cpp
+[0.107s] [ 50%] Built target udemy_ros2_pkg__rosidl_typesupport_introspection_c
+[0.108s] [ 58%] Built target udemy_ros2_pkg__rosidl_typesupport_introspection_cpp
+[0.110s] [ 65%] Built target udemy_ros2_pkg__rosidl_typesupport_fastrtps_c
+[0.118s] [35m[1mConsolidate compiler generated dependencies of target action_server[0m
+[0.121s] [35m[1mConsolidate compiler generated dependencies of target action_client[0m
+[0.134s] [ 68%] Built target service_server
+[0.135s] [ 71%] Built target service_client
+[0.136s] [ 74%] Built target turn_camera_client
+[0.139s] [ 74%] Built target udemy_ros2_pkg
+[0.141s] [ 77%] Built target turn_camera_service
+[0.144s] [ 80%] Built target action_server
+[0.152s] [ 82%] [32mBuilding CXX object CMakeFiles/action_client.dir/src/action_client.cpp.o[0m
+[0.163s] [ 83%] Built target udemy_ros2_pkg__py
+[0.186s] [ 89%] Built target udemy_ros2_pkg__rosidl_generator_py
+[0.212s] [ 98%] Built target udemy_ros2_pkg__rosidl_typesupport_c__pyext
+[0.212s] [ 98%] Built target udemy_ros2_pkg__rosidl_typesupport_fastrtps_c__pyext
+[0.212s] [ 98%] Built target udemy_ros2_pkg__rosidl_typesupport_introspection_c__pyext
+[0.412s] running egg_info
+[0.412s] writing udemy_ros2_pkg.egg-info/PKG-INFO
+[0.413s] writing dependency_links to udemy_ros2_pkg.egg-info/dependency_links.txt
+[0.413s] writing top-level names to udemy_ros2_pkg.egg-info/top_level.txt
+[0.415s] reading manifest file 'udemy_ros2_pkg.egg-info/SOURCES.txt'
+[0.416s] writing manifest file 'udemy_ros2_pkg.egg-info/SOURCES.txt'
+[0.449s] [ 98%] Built target ament_cmake_python_build_udemy_ros2_pkg_egg
+[6.189s] [100%] [32m[1mLinking CXX executable action_client[0m
+[6.309s] [100%] Built target action_client
+[6.322s] Invoked command in '/home/ingejohan/Workspaces/build/udemy_ros2_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ingejohan/ros2_ws/install/rover:/home/ingejohan/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/ingejohan/Workspaces/build/udemy_ros2_pkg -- -j16 -l16
+[6.426s] Invoking command in '/home/ingejohan/Workspaces/build/udemy_ros2_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ingejohan/ros2_ws/install/rover:/home/ingejohan/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/ingejohan/Workspaces/build/udemy_ros2_pkg
+[6.432s] -- Install configuration: "RelWithDebInfo"
+[6.433s] -- Execute custom install script
+[6.433s] -- Up-to-date symlink: /home/ingejohan/Workspaces/install/udemy_ros2_pkg/share/ament_index/resource_index/rosidl_interfaces/udemy_ros2_pkg
+[6.434s] -- Up-to-date symlink: /home/ingejohan/Workspaces/install/udemy_ros2_pkg/include/udemy_ros2_pkg/udemy_ros2_pkg/action/detail/navigate__functions.h
+[6.434s] -- Up-to-date symlink: /home/ingejohan/Workspaces/install/udemy_ros2_pkg/include/udemy_ros2_pkg/udemy_ros2_pkg/action/detail/navigate__struct.h
+[6.434s] -- Up-to-date symlink: /home/ingejohan/Workspaces/install/udemy_ros2_pkg/include/udemy_ros2_pkg/udemy_ros2_pkg/action/detail/navigate__type_support.h
+[6.434s] -- Up-to-date symlink: /home/ingejohan/Workspaces/install/udemy_ros2_pkg/include/udemy_ros2_pkg/udemy_ros2_pkg/action/navigate.h
+[6.434s] -- Up-to-date symlink: /home/ingejohan/Workspaces/install/udemy_ros2_pkg/include/udemy_ros2_pkg/udemy_ros2_pkg/msg/rosidl_generator_c__visibility_control.h
+[6.434s] -- Up-to-date symlink: /home/ingejohan/Workspaces/install/udemy_ros2_pkg/include/udemy_ros2_pkg/udemy_ros2_pkg/srv/detail/odd_even_check__functions.h
+[6.434s] -- Up-to-date symlink: /home/ingejohan/Workspaces/install/udemy_ros2_pkg/include/udemy_ros2_pkg/udemy_ros2_pkg/srv/detail/odd_even_check__struct.h
+[6.435s] -- Up-to-date symlink: /home/ingejohan/Workspaces/install/udemy_ros2_pkg/include/udemy_ros2_pkg/udemy_ros2_pkg/srv/detail/odd_even_check__type_support.h
+[6.435s] -- Up-to-date symlink: /home/ingejohan/Workspaces/install/udemy_ros2_pkg/include/udemy_ros2_pkg/udemy_ros2_pkg/srv/detail/turn_camera__functions.h
+[6.435s] -- Up-to-date symlink: /home/ingejohan/Workspaces/install/udemy_ros2_pkg/include/udemy_ros2_pkg/udemy_ros2_pkg/srv/detail/turn_camera__struct.h
+[6.435s] -- Up-to-date symlink: /home/ingejohan/Workspaces/install/udemy_ros2_pkg/include/udemy_ros2_pkg/udemy_ros2_pkg/srv/detail/turn_camera__type_support.h
+[6.435s] -- Up-to-date symlink: /home/ingejohan/Workspaces/install/udemy_ros2_pkg/include/udemy_ros2_pkg/udemy_ros2_pkg/srv/odd_even_check.h
+[6.436s] -- Up-to-date symlink: /home/ingejohan/Workspaces/install/udemy_ros2_pkg/include/udemy_ros2_pkg/udemy_ros2_pkg/srv/turn_camera.h
+[6.436s] -- Up-to-date symlink: /home/ingejohan/Workspaces/install/udemy_ros2_pkg/share/udemy_ros2_pkg/environment/library_path.sh
+[6.436s] -- Up-to-date symlink: /home/ingejohan/Workspaces/install/udemy_ros2_pkg/share/udemy_ros2_pkg/environment/library_path.dsv
+[6.437s] -- Up-to-date symlink: /home/ingejohan/Workspaces/install/udemy_ros2_pkg/include/udemy_ros2_pkg/udemy_ros2_pkg/action/detail/navigate__rosidl_typesupport_fastrtps_c.h
+[6.437s] -- Up-to-date symlink: /home/ingejohan/Workspaces/install/udemy_ros2_pkg/include/udemy_ros2_pkg/udemy_ros2_pkg/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[6.437s] -- Up-to-date symlink: /home/ingejohan/Workspaces/install/udemy_ros2_pkg/include/udemy_ros2_pkg/udemy_ros2_pkg/srv/detail/odd_even_check__rosidl_typesupport_fastrtps_c.h
+[6.437s] -- Up-to-date symlink: /home/ingejohan/Workspaces/install/udemy_ros2_pkg/include/udemy_ros2_pkg/udemy_ros2_pkg/srv/detail/turn_camera__rosidl_typesupport_fastrtps_c.h
+[6.438s] -- Up-to-date symlink: /home/ingejohan/Workspaces/install/udemy_ros2_pkg/include/udemy_ros2_pkg/udemy_ros2_pkg/action/detail/navigate__builder.hpp
+[6.438s] -- Up-to-date symlink: /home/ingejohan/Workspaces/install/udemy_ros2_pkg/include/udemy_ros2_pkg/udemy_ros2_pkg/action/detail/navigate__struct.hpp
+[6.438s] -- Up-to-date symlink: /home/ingejohan/Workspaces/install/udemy_ros2_pkg/include/udemy_ros2_pkg/udemy_ros2_pkg/action/detail/navigate__traits.hpp
+[6.438s] -- Up-to-date symlink: /home/ingejohan/Workspaces/install/udemy_ros2_pkg/include/udemy_ros2_pkg/udemy_ros2_pkg/action/navigate.hpp
+[6.438s] -- Up-to-date symlink: /home/ingejohan/Workspaces/install/udemy_ros2_pkg/include/udemy_ros2_pkg/udemy_ros2_pkg/srv/detail/odd_even_check__builder.hpp
+[6.439s] -- Up-to-date symlink: /home/ingejohan/Workspaces/install/udemy_ros2_pkg/include/udemy_ros2_pkg/udemy_ros2_pkg/srv/detail/odd_even_check__struct.hpp
+[6.439s] -- Up-to-date symlink: /home/ingejohan/Workspaces/install/udemy_ros2_pkg/include/udemy_ros2_pkg/udemy_ros2_pkg/srv/detail/odd_even_check__traits.hpp
+[6.439s] -- Up-to-date symlink: /home/ingejohan/Workspaces/install/udemy_ros2_pkg/include/udemy_ros2_pkg/udemy_ros2_pkg/srv/detail/turn_camera__builder.hpp
+[6.439s] -- Up-to-date symlink: /home/ingejohan/Workspaces/install/udemy_ros2_pkg/include/udemy_ros2_pkg/udemy_ros2_pkg/srv/detail/turn_camera__struct.hpp
+[6.440s] -- Up-to-date symlink: /home/ingejohan/Workspaces/install/udemy_ros2_pkg/include/udemy_ros2_pkg/udemy_ros2_pkg/srv/detail/turn_camera__traits.hpp
+[6.440s] -- Up-to-date symlink: /home/ingejohan/Workspaces/install/udemy_ros2_pkg/include/udemy_ros2_pkg/udemy_ros2_pkg/srv/odd_even_check.hpp
+[6.440s] -- Up-to-date symlink: /home/ingejohan/Workspaces/install/udemy_ros2_pkg/include/udemy_ros2_pkg/udemy_ros2_pkg/srv/turn_camera.hpp
+[6.440s] -- Up-to-date symlink: /home/ingejohan/Workspaces/install/udemy_ros2_pkg/include/udemy_ros2_pkg/udemy_ros2_pkg/action/detail/navigate__rosidl_typesupport_fastrtps_cpp.hpp
+[6.440s] -- Up-to-date symlink: /home/ingejohan/Workspaces/install/udemy_ros2_pkg/include/udemy_ros2_pkg/udemy_ros2_pkg/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[6.440s] -- Up-to-date symlink: /home/ingejohan/Workspaces/install/udemy_ros2_pkg/include/udemy_ros2_pkg/udemy_ros2_pkg/srv/detail/odd_even_check__rosidl_typesupport_fastrtps_cpp.hpp
+[6.441s] -- Up-to-date symlink: /home/ingejohan/Workspaces/install/udemy_ros2_pkg/include/udemy_ros2_pkg/udemy_ros2_pkg/srv/detail/turn_camera__rosidl_typesupport_fastrtps_cpp.hpp
+[6.441s] -- Up-to-date symlink: /home/ingejohan/Workspaces/install/udemy_ros2_pkg/include/udemy_ros2_pkg/udemy_ros2_pkg/action/detail/navigate__rosidl_typesupport_introspection_c.h
+[6.441s] -- Up-to-date symlink: /home/ingejohan/Workspaces/install/udemy_ros2_pkg/include/udemy_ros2_pkg/udemy_ros2_pkg/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[6.441s] -- Up-to-date symlink: /home/ingejohan/Workspaces/install/udemy_ros2_pkg/include/udemy_ros2_pkg/udemy_ros2_pkg/srv/detail/odd_even_check__rosidl_typesupport_introspection_c.h
+[6.441s] -- Up-to-date symlink: /home/ingejohan/Workspaces/install/udemy_ros2_pkg/include/udemy_ros2_pkg/udemy_ros2_pkg/srv/detail/turn_camera__rosidl_typesupport_introspection_c.h
+[6.442s] -- Up-to-date symlink: /home/ingejohan/Workspaces/install/udemy_ros2_pkg/include/udemy_ros2_pkg/udemy_ros2_pkg/action/detail/navigate__rosidl_typesupport_introspection_cpp.hpp
+[6.442s] -- Up-to-date symlink: /home/ingejohan/Workspaces/install/udemy_ros2_pkg/include/udemy_ros2_pkg/udemy_ros2_pkg/srv/detail/odd_even_check__rosidl_typesupport_introspection_cpp.hpp
+[6.442s] -- Up-to-date symlink: /home/ingejohan/Workspaces/install/udemy_ros2_pkg/include/udemy_ros2_pkg/udemy_ros2_pkg/srv/detail/turn_camera__rosidl_typesupport_introspection_cpp.hpp
+[6.442s] -- Up-to-date symlink: /home/ingejohan/Workspaces/install/udemy_ros2_pkg/share/udemy_ros2_pkg/environment/pythonpath.sh
+[6.443s] -- Up-to-date symlink: /home/ingejohan/Workspaces/install/udemy_ros2_pkg/share/udemy_ros2_pkg/environment/pythonpath.dsv
+[6.443s] -- Up-to-date symlink: /home/ingejohan/Workspaces/install/udemy_ros2_pkg/local/lib/python3.10/dist-packages/udemy_ros2_pkg-0.0.0-py3.10.egg-info/PKG-INFO
+[6.443s] -- Up-to-date symlink: /home/ingejohan/Workspaces/install/udemy_ros2_pkg/local/lib/python3.10/dist-packages/udemy_ros2_pkg-0.0.0-py3.10.egg-info/SOURCES.txt
+[6.443s] -- Up-to-date symlink: /home/ingejohan/Workspaces/install/udemy_ros2_pkg/local/lib/python3.10/dist-packages/udemy_ros2_pkg-0.0.0-py3.10.egg-info/dependency_links.txt
+[6.443s] -- Up-to-date symlink: /home/ingejohan/Workspaces/install/udemy_ros2_pkg/local/lib/python3.10/dist-packages/udemy_ros2_pkg-0.0.0-py3.10.egg-info/top_level.txt
+[6.444s] -- Up-to-date symlink: /home/ingejohan/Workspaces/install/udemy_ros2_pkg/local/lib/python3.10/dist-packages/udemy_ros2_pkg/__init__.py
+[6.444s] -- Up-to-date symlink: /home/ingejohan/Workspaces/install/udemy_ros2_pkg/local/lib/python3.10/dist-packages/udemy_ros2_pkg/_udemy_ros2_pkg_s.ep.rosidl_typesupport_c.c
+[6.444s] -- Up-to-date symlink: /home/ingejohan/Workspaces/install/udemy_ros2_pkg/local/lib/python3.10/dist-packages/udemy_ros2_pkg/_udemy_ros2_pkg_s.ep.rosidl_typesupport_fastrtps_c.c
+[6.444s] -- Up-to-date symlink: /home/ingejohan/Workspaces/install/udemy_ros2_pkg/local/lib/python3.10/dist-packages/udemy_ros2_pkg/_udemy_ros2_pkg_s.ep.rosidl_typesupport_introspection_c.c
+[6.445s] -- Up-to-date symlink: /home/ingejohan/Workspaces/install/udemy_ros2_pkg/local/lib/python3.10/dist-packages/udemy_ros2_pkg/action/__init__.py
+[6.445s] -- Up-to-date symlink: /home/ingejohan/Workspaces/install/udemy_ros2_pkg/local/lib/python3.10/dist-packages/udemy_ros2_pkg/action/_navigate.py
+[6.445s] -- Up-to-date symlink: /home/ingejohan/Workspaces/install/udemy_ros2_pkg/local/lib/python3.10/dist-packages/udemy_ros2_pkg/action/_navigate_s.c
+[6.445s] -- Up-to-date symlink: /home/ingejohan/Workspaces/install/udemy_ros2_pkg/local/lib/python3.10/dist-packages/udemy_ros2_pkg/libudemy_ros2_pkg__rosidl_generator_py.so
+[6.445s] -- Up-to-date symlink: /home/ingejohan/Workspaces/install/udemy_ros2_pkg/local/lib/python3.10/dist-packages/udemy_ros2_pkg/srv/__init__.py
+[6.445s] -- Up-to-date symlink: /home/ingejohan/Workspaces/install/udemy_ros2_pkg/local/lib/python3.10/dist-packages/udemy_ros2_pkg/srv/_odd_even_check.py
+[6.445s] -- Up-to-date symlink: /home/ingejohan/Workspaces/install/udemy_ros2_pkg/local/lib/python3.10/dist-packages/udemy_ros2_pkg/srv/_odd_even_check_s.c
+[6.445s] -- Up-to-date symlink: /home/ingejohan/Workspaces/install/udemy_ros2_pkg/local/lib/python3.10/dist-packages/udemy_ros2_pkg/srv/_turn_camera.py
+[6.445s] -- Up-to-date symlink: /home/ingejohan/Workspaces/install/udemy_ros2_pkg/local/lib/python3.10/dist-packages/udemy_ros2_pkg/srv/_turn_camera_s.c
+[6.446s] -- Up-to-date symlink: /home/ingejohan/Workspaces/install/udemy_ros2_pkg/local/lib/python3.10/dist-packages/udemy_ros2_pkg/udemy_ros2_pkg_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[6.446s] -- Up-to-date symlink: /home/ingejohan/Workspaces/install/udemy_ros2_pkg/local/lib/python3.10/dist-packages/udemy_ros2_pkg/udemy_ros2_pkg_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[6.446s] -- Up-to-date symlink: /home/ingejohan/Workspaces/install/udemy_ros2_pkg/local/lib/python3.10/dist-packages/udemy_ros2_pkg/udemy_ros2_pkg_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[6.446s] -- Up-to-date symlink: /home/ingejohan/Workspaces/install/udemy_ros2_pkg/local/lib/python3.10/dist-packages/udemy_ros2_pkg/udemy_ros2_pkg_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[6.447s] -- Up-to-date symlink: /home/ingejohan/Workspaces/install/udemy_ros2_pkg/local/lib/python3.10/dist-packages/udemy_ros2_pkg/udemy_ros2_pkg_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[6.447s] -- Up-to-date symlink: /home/ingejohan/Workspaces/install/udemy_ros2_pkg/local/lib/python3.10/dist-packages/udemy_ros2_pkg/udemy_ros2_pkg_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[6.447s] -- Up-to-date symlink: /home/ingejohan/Workspaces/install/udemy_ros2_pkg/share/udemy_ros2_pkg/srv/OddEvenCheck.idl
+[6.447s] -- Up-to-date symlink: /home/ingejohan/Workspaces/install/udemy_ros2_pkg/share/udemy_ros2_pkg/srv/TurnCamera.idl
+[6.447s] -- Up-to-date symlink: /home/ingejohan/Workspaces/install/udemy_ros2_pkg/share/udemy_ros2_pkg/action/Navigate.idl
+[6.448s] -- Up-to-date symlink: /home/ingejohan/Workspaces/install/udemy_ros2_pkg/share/udemy_ros2_pkg/srv/OddEvenCheck.srv
+[6.448s] -- Up-to-date symlink: /home/ingejohan/Workspaces/install/udemy_ros2_pkg/share/udemy_ros2_pkg/srv/OddEvenCheck_Request.msg
+[6.448s] -- Up-to-date symlink: /home/ingejohan/Workspaces/install/udemy_ros2_pkg/share/udemy_ros2_pkg/srv/OddEvenCheck_Response.msg
+[6.448s] -- Up-to-date symlink: /home/ingejohan/Workspaces/install/udemy_ros2_pkg/share/udemy_ros2_pkg/srv/TurnCamera.srv
+[6.448s] -- Up-to-date symlink: /home/ingejohan/Workspaces/install/udemy_ros2_pkg/share/udemy_ros2_pkg/srv/TurnCamera_Request.msg
+[6.448s] -- Up-to-date symlink: /home/ingejohan/Workspaces/install/udemy_ros2_pkg/share/udemy_ros2_pkg/srv/TurnCamera_Response.msg
+[6.449s] -- Up-to-date symlink: /home/ingejohan/Workspaces/install/udemy_ros2_pkg/share/udemy_ros2_pkg/action/Navigate.action
+[6.449s] -- Up-to-date symlink: /home/ingejohan/Workspaces/install/udemy_ros2_pkg/lib/udemy_ros2_pkg/publisher
+[6.449s] -- Up-to-date symlink: /home/ingejohan/Workspaces/install/udemy_ros2_pkg/lib/udemy_ros2_pkg/subscriber
+[6.449s] -- Up-to-date symlink: /home/ingejohan/Workspaces/install/udemy_ros2_pkg/lib/udemy_ros2_pkg/rpm_pub
+[6.450s] -- Up-to-date symlink: /home/ingejohan/Workspaces/install/udemy_ros2_pkg/lib/udemy_ros2_pkg/speed_calc
+[6.450s] -- Up-to-date symlink: /home/ingejohan/Workspaces/install/udemy_ros2_pkg/lib/udemy_ros2_pkg/service_server
+[6.450s] -- Up-to-date symlink: /home/ingejohan/Workspaces/install/udemy_ros2_pkg/lib/udemy_ros2_pkg/service_client
+[6.451s] -- Up-to-date symlink: /home/ingejohan/Workspaces/install/udemy_ros2_pkg/lib/udemy_ros2_pkg/turn_camera_service
+[6.451s] -- Up-to-date symlink: /home/ingejohan/Workspaces/install/udemy_ros2_pkg/lib/udemy_ros2_pkg/turn_camera_client
+[6.451s] -- Up-to-date symlink: /home/ingejohan/Workspaces/install/udemy_ros2_pkg/lib/udemy_ros2_pkg/action_server
+[6.451s] -- Up-to-date symlink: /home/ingejohan/Workspaces/install/udemy_ros2_pkg/lib/udemy_ros2_pkg/action_client
+[6.452s] -- Up-to-date symlink: /home/ingejohan/Workspaces/install/udemy_ros2_pkg/share/udemy_ros2_pkg//launch/launch_project.launch.py
+[6.452s] -- Up-to-date symlink: /home/ingejohan/Workspaces/install/udemy_ros2_pkg/share/udemy_ros2_pkg//launch/rpm_node.launch.py
+[6.452s] -- Up-to-date symlink: /home/ingejohan/Workspaces/install/udemy_ros2_pkg/share/ament_index/resource_index/package_run_dependencies/udemy_ros2_pkg
+[6.452s] -- Up-to-date symlink: /home/ingejohan/Workspaces/install/udemy_ros2_pkg/share/ament_index/resource_index/parent_prefix_path/udemy_ros2_pkg
+[6.452s] -- Up-to-date symlink: /home/ingejohan/Workspaces/install/udemy_ros2_pkg/share/udemy_ros2_pkg/environment/ament_prefix_path.sh
+[6.452s] -- Up-to-date symlink: /home/ingejohan/Workspaces/install/udemy_ros2_pkg/share/udemy_ros2_pkg/environment/ament_prefix_path.dsv
+[6.453s] -- Up-to-date symlink: /home/ingejohan/Workspaces/install/udemy_ros2_pkg/share/udemy_ros2_pkg/environment/path.sh
+[6.453s] -- Up-to-date symlink: /home/ingejohan/Workspaces/install/udemy_ros2_pkg/share/udemy_ros2_pkg/environment/path.dsv
+[6.453s] -- Up-to-date symlink: /home/ingejohan/Workspaces/install/udemy_ros2_pkg/share/udemy_ros2_pkg/local_setup.bash
+[6.453s] -- Up-to-date symlink: /home/ingejohan/Workspaces/install/udemy_ros2_pkg/share/udemy_ros2_pkg/local_setup.sh
+[6.453s] -- Up-to-date symlink: /home/ingejohan/Workspaces/install/udemy_ros2_pkg/share/udemy_ros2_pkg/local_setup.zsh
+[6.453s] -- Up-to-date symlink: /home/ingejohan/Workspaces/install/udemy_ros2_pkg/share/udemy_ros2_pkg/local_setup.dsv
+[6.453s] -- Symlinking: /home/ingejohan/Workspaces/install/udemy_ros2_pkg/share/udemy_ros2_pkg/package.dsv
+[6.462s] -- Up-to-date symlink: /home/ingejohan/Workspaces/install/udemy_ros2_pkg/share/ament_index/resource_index/packages/udemy_ros2_pkg
+[6.462s] -- Up-to-date symlink: /home/ingejohan/Workspaces/install/udemy_ros2_pkg/share/udemy_ros2_pkg/cmake/rosidl_cmake-extras.cmake
+[6.462s] -- Up-to-date symlink: /home/ingejohan/Workspaces/install/udemy_ros2_pkg/share/udemy_ros2_pkg/cmake/ament_cmake_export_dependencies-extras.cmake
+[6.463s] -- Up-to-date symlink: /home/ingejohan/Workspaces/install/udemy_ros2_pkg/share/udemy_ros2_pkg/cmake/ament_cmake_export_include_directories-extras.cmake
+[6.463s] -- Up-to-date symlink: /home/ingejohan/Workspaces/install/udemy_ros2_pkg/share/udemy_ros2_pkg/cmake/ament_cmake_export_libraries-extras.cmake
+[6.463s] -- Up-to-date symlink: /home/ingejohan/Workspaces/install/udemy_ros2_pkg/share/udemy_ros2_pkg/cmake/ament_cmake_export_targets-extras.cmake
+[6.463s] -- Up-to-date symlink: /home/ingejohan/Workspaces/install/udemy_ros2_pkg/share/udemy_ros2_pkg/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[6.463s] -- Up-to-date symlink: /home/ingejohan/Workspaces/install/udemy_ros2_pkg/share/udemy_ros2_pkg/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[6.463s] -- Up-to-date symlink: /home/ingejohan/Workspaces/install/udemy_ros2_pkg/share/udemy_ros2_pkg/cmake/udemy_ros2_pkgConfig.cmake
+[6.464s] -- Up-to-date symlink: /home/ingejohan/Workspaces/install/udemy_ros2_pkg/share/udemy_ros2_pkg/cmake/udemy_ros2_pkgConfig-version.cmake
+[6.464s] -- Up-to-date symlink: /home/ingejohan/Workspaces/install/udemy_ros2_pkg/share/udemy_ros2_pkg/package.xml
+[6.464s] -- Up-to-date: /home/ingejohan/Workspaces/install/udemy_ros2_pkg/lib/libudemy_ros2_pkg__rosidl_generator_c.so
+[6.464s] -- Up-to-date: /home/ingejohan/Workspaces/install/udemy_ros2_pkg/lib/libudemy_ros2_pkg__rosidl_typesupport_fastrtps_c.so
+[6.464s] -- Up-to-date: /home/ingejohan/Workspaces/install/udemy_ros2_pkg/lib/libudemy_ros2_pkg__rosidl_typesupport_fastrtps_cpp.so
+[6.465s] -- Up-to-date: /home/ingejohan/Workspaces/install/udemy_ros2_pkg/lib/libudemy_ros2_pkg__rosidl_typesupport_introspection_c.so
+[6.465s] -- Up-to-date: /home/ingejohan/Workspaces/install/udemy_ros2_pkg/lib/libudemy_ros2_pkg__rosidl_typesupport_c.so
+[6.465s] -- Up-to-date: /home/ingejohan/Workspaces/install/udemy_ros2_pkg/lib/libudemy_ros2_pkg__rosidl_typesupport_introspection_cpp.so
+[6.466s] -- Up-to-date: /home/ingejohan/Workspaces/install/udemy_ros2_pkg/lib/libudemy_ros2_pkg__rosidl_typesupport_cpp.so
+[6.497s] Listing '/home/ingejohan/Workspaces/install/udemy_ros2_pkg/local/lib/python3.10/dist-packages/udemy_ros2_pkg'...
+[6.497s] Listing '/home/ingejohan/Workspaces/install/udemy_ros2_pkg/local/lib/python3.10/dist-packages/udemy_ros2_pkg/action'...
+[6.497s] Listing '/home/ingejohan/Workspaces/install/udemy_ros2_pkg/local/lib/python3.10/dist-packages/udemy_ros2_pkg/srv'...
+[6.501s] -- Up-to-date: /home/ingejohan/Workspaces/install/udemy_ros2_pkg/lib/libudemy_ros2_pkg__rosidl_generator_py.so
+[6.501s] -- Up-to-date: /home/ingejohan/Workspaces/install/udemy_ros2_pkg/share/udemy_ros2_pkg/cmake/export_udemy_ros2_pkg__rosidl_generator_cExport.cmake
+[6.501s] -- Up-to-date: /home/ingejohan/Workspaces/install/udemy_ros2_pkg/share/udemy_ros2_pkg/cmake/export_udemy_ros2_pkg__rosidl_generator_cExport-relwithdebinfo.cmake
+[6.501s] -- Up-to-date: /home/ingejohan/Workspaces/install/udemy_ros2_pkg/share/udemy_ros2_pkg/cmake/export_udemy_ros2_pkg__rosidl_typesupport_fastrtps_cExport.cmake
+[6.501s] -- Up-to-date: /home/ingejohan/Workspaces/install/udemy_ros2_pkg/share/udemy_ros2_pkg/cmake/export_udemy_ros2_pkg__rosidl_typesupport_fastrtps_cExport-relwithdebinfo.cmake
+[6.501s] -- Up-to-date: /home/ingejohan/Workspaces/install/udemy_ros2_pkg/share/udemy_ros2_pkg/cmake/export_udemy_ros2_pkg__rosidl_generator_cppExport.cmake
+[6.501s] -- Up-to-date: /home/ingejohan/Workspaces/install/udemy_ros2_pkg/share/udemy_ros2_pkg/cmake/export_udemy_ros2_pkg__rosidl_typesupport_fastrtps_cppExport.cmake
+[6.502s] -- Up-to-date: /home/ingejohan/Workspaces/install/udemy_ros2_pkg/share/udemy_ros2_pkg/cmake/export_udemy_ros2_pkg__rosidl_typesupport_fastrtps_cppExport-relwithdebinfo.cmake
+[6.502s] -- Up-to-date: /home/ingejohan/Workspaces/install/udemy_ros2_pkg/share/udemy_ros2_pkg/cmake/udemy_ros2_pkg__rosidl_typesupport_introspection_cExport.cmake
+[6.502s] -- Up-to-date: /home/ingejohan/Workspaces/install/udemy_ros2_pkg/share/udemy_ros2_pkg/cmake/udemy_ros2_pkg__rosidl_typesupport_introspection_cExport-relwithdebinfo.cmake
+[6.502s] -- Up-to-date: /home/ingejohan/Workspaces/install/udemy_ros2_pkg/share/udemy_ros2_pkg/cmake/udemy_ros2_pkg__rosidl_typesupport_cExport.cmake
+[6.502s] -- Up-to-date: /home/ingejohan/Workspaces/install/udemy_ros2_pkg/share/udemy_ros2_pkg/cmake/udemy_ros2_pkg__rosidl_typesupport_cExport-relwithdebinfo.cmake
+[6.502s] -- Up-to-date: /home/ingejohan/Workspaces/install/udemy_ros2_pkg/share/udemy_ros2_pkg/cmake/udemy_ros2_pkg__rosidl_typesupport_introspection_cppExport.cmake
+[6.502s] -- Up-to-date: /home/ingejohan/Workspaces/install/udemy_ros2_pkg/share/udemy_ros2_pkg/cmake/udemy_ros2_pkg__rosidl_typesupport_introspection_cppExport-relwithdebinfo.cmake
+[6.502s] -- Up-to-date: /home/ingejohan/Workspaces/install/udemy_ros2_pkg/share/udemy_ros2_pkg/cmake/udemy_ros2_pkg__rosidl_typesupport_cppExport.cmake
+[6.502s] -- Up-to-date: /home/ingejohan/Workspaces/install/udemy_ros2_pkg/share/udemy_ros2_pkg/cmake/udemy_ros2_pkg__rosidl_typesupport_cppExport-relwithdebinfo.cmake
+[6.502s] -- Up-to-date: /home/ingejohan/Workspaces/install/udemy_ros2_pkg/share/udemy_ros2_pkg/cmake/export_udemy_ros2_pkg__rosidl_generator_pyExport.cmake
+[6.502s] -- Up-to-date: /home/ingejohan/Workspaces/install/udemy_ros2_pkg/share/udemy_ros2_pkg/cmake/export_udemy_ros2_pkg__rosidl_generator_pyExport-relwithdebinfo.cmake
+[6.504s] Invoked command in '/home/ingejohan/Workspaces/build/udemy_ros2_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ingejohan/ros2_ws/install/rover:/home/ingejohan/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/ingejohan/Workspaces/build/udemy_ros2_pkg

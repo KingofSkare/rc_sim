@@ -1,0 +1,40 @@
+<sdf version="1.8">
+    <world name="test_world">
+    <plugin
+        filename="ignition-gazebo-physics-system"
+        name="gz::sim::systems::Physics">
+    </plugin>
+    <plugin
+        filename="ignition-gazebo-sensors-system"
+        name="gz::sim::systems::Sensors">
+    <render_engine>ogre</render_engine>
+    </plugin>
+    <plugin
+        filename="ignition-gazebo-user-commands-system"
+        name="gz::sim::systems::UserCommands">
+    </plugin>
+    <plugin
+        filename="ignition-gazebo-scene-broadcaster-system"
+        name="gz::sim::systems::SceneBroadcaster">
+    </plugin>
+  
+    
+  
+      <include>
+        <uri>
+        https://fuel.gazebosim.org/1.0/OpenRobotics/models/Sun</uri>
+      </include>
+  
+      <include>
+        <uri>ground_plane</uri>
+      </include>
+
+      <include>
+        <uri>/home/ingejohan/Workspaces/ros2_cpp_ws/src/udemy_ros2_pkg/models/RC/model.sdf</uri>
+      </include>
+      
+      
+      
+    </world>
+</sdf>
+  

@@ -1,0 +1,1 @@
+/home/ingejohan/Workspaces/build/udemy_ros2_pkg/ament_cmake_environment_hooks/local_setup.bash

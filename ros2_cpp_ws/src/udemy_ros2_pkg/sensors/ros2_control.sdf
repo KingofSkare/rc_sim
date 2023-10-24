@@ -1,0 +1,11 @@
+<sdf version="1.8">
+    <ros2_control name="IgnitionSystem" type=""system>
+        <hardware>
+            <plugin>
+                
+            </plugin>
+        </hardware>
+    </ros2_control>
+
+  </sdf>
+  

@@ -1,0 +1,9 @@
+# Goal
+geometry_msgs/Point goal_point # X,Y,Z
+---
+# Result
+float32 elapsed_time # in secunds
+---
+# Feedback
+float32 distance_to_point # in meters
+
