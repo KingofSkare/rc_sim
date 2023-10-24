@@ -13,9 +13,9 @@ class ObstacleAvoidingBot(Node):
         self.publisher = self.create_publisher(Twist, '/cmd_vel', 40)
         # subscriber
         self.subscription=self.create_subscription(LaserScan,'/scan',self.get_scan_values,40)
-        # periodic publisher call
-        timer_period = 0.2
-        self.timer = self.create_timer(timer_period, self.send_cmd_vel)
+        ## periodic publisher call
+        # timer_period = 0.2
+        # self.timer = self.create_timer(timer_period, self.send_cmd_vel)
         ## Initializing Global values
         ## given a value for VELOCITY
         self.linear_vel = 0.22
@@ -50,17 +50,17 @@ class ObstacleAvoidingBot(Node):
         ## cases to make the robot change its angular velocity
         if(self.regions["A8"] > 4 and self.regions["A5"] > 4 and self.regions["A2"] > 4 ):
             self.velocity.angular.z=0.0 # condition in which area is total clear
-            #print("forword")
+            print("forword")
         elif(self.regions["A8"] > 4 and self.regions["A5"] > 4 and self.regions["A2"] < 4 ):
             self.velocity.angular.z=1.57 # object on right, taking left
-            #print("left")
+            print("left")
         elif(self.regions["A8"] < 4 and self.regions["A5"] > 4 and self.regions["A2"] > 4 ):
             self.velocity.angular.z=-1.57 # object on left, taking right
-            #print("right")
+            print("right")
         elif(self.regions["A8"] < 4 and self.regions["A5"] < 4 and self.regions["A2"] < 4 ):
             self.velocity.angular.z=2.9 # object on ahead take full turn
             self.velocity.linear.x=-self.linear_vel
-            #print("reverse")
+            print("reverse")
         else: ## add more code later
             print("some other conditions are required to be programmed")
 
