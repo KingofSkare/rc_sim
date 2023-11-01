@@ -73,5 +73,6 @@
         "typeindex": "cpp",
         "typeinfo": "cpp",
         "variant": "cpp"
-    }
+    },
+    "cmake.sourceDirectory": "/home/ingejohan/Workspaces/build/udemy_ros2_pkg/udemy_ros2_pkg__py"
 }

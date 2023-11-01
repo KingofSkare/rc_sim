@@ -59,18 +59,15 @@ def generate_launch_description():
 
         Node(
             package='udemy_ros2_pkg',
-            executable='obstacle_avoiding.py',
+            executable='obstacle_avoidance',
+            name='obstacle_avoidance',
             output='screen'
         ),
 
 
-        # Node(
-        #     package='rviz2',
-        #     executable='rviz2',
-        #     name='rviz2',
-        #     arguments=['-d', '/home/ingejohan/Workspaces/ros2_cpp_ws/src/udemy_ros2_pkg/RViz2/config.rviz'],
-        #     output='screen'
-        # ),
+
+
+
 
         RegisterEventHandler(
             event_handler=OnProcessExit(
