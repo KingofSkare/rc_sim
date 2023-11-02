@@ -278,37 +278,6 @@
         </geometry>
       </visual>
 
-      <!-- <sensor name="laser" type="ray">
-        <pose>0 0 0 0 1.57079633 0</pose>
-        <ray>
-          <scan>
-            <horizontal>
-              <samples>1</samples>
-              <resolution>1</resolution>
-              <min_angle>-0</min_angle>
-              <max_angle>0</max_angle>
-            </horizontal>
-          </scan>
-          <range>
-            <min>0.06</min> do not change: use min_distance (below) for realistic behavior (smaller values cause issues) -->
-            <!-- <max>35</max>  do not change: use min_distance (below) for realistic behavior (bigger values cause issues) -->
-            <!-- <resolution>0.01</resolution>
-          </range>
-          <noise>
-            <type>gaussian</type>
-            <mean>0.0</mean>
-            <stddev>0.02</stddev>
-          </noise>
-        </ray>
-        <plugin name="LaserPlugin" filename="libgazebo_lidar_plugin.so">
-          <robotNamespace></robotNamespace>
-          <min_distance>0.2</min_distance>
-          <max_distance>15.0</max_distance>
-        </plugin>
-        <always_on>1</always_on>
-        <update_rate>20</update_rate>
-        <visualize>true</visualize>
-      </sensor> -->
       <sensor name='gpu_lidar' type='gpu_lidar'>
         <topic>lidar</topic>
         <update_rate>10</update_rate>
@@ -328,7 +297,7 @@
             </vertical>
           </scan>
           <range>
-            <min>0.06</min>
+            <min>0.08</min>
             <max>10.0</max>
             <resolution>0.01</resolution>
           </range>
@@ -337,7 +306,60 @@
       </sensor>
     </link>
     <static>true</static>
-  
+  <!-- </model> -->
+
+  <!-- <link name="lidar_link">
+  <pose>0.0 0 0.06 0 0 0</pose>
+  <inertial>
+    <mass>0.1</mass>
+    <inertia>
+      <ixx>0.000166667</ixx>
+      <iyy>0.000166667</iyy>
+      <izz>0.000166667</izz>
+    </inertia>
+  </inertial>
+  <collision name="collision">
+    <geometry>
+      <box>
+        <size>0.1 0.1 0.1</size>
+      </box>
+    </geometry>
+  </collision>
+  <visual name="visual">
+    <geometry>
+      <box>
+        <size>0.1 0.1 0.1</size>
+      </box>
+    </geometry>
+  </visual>
+  <sensor name='gpu_lidar' type='gpu_lidar'>
+  <pose>0.0 0 0.06 0 0 0</pose>
+    <topic>lidar2</topic>
+    <update_rate>10</update_rate>
+    <lidar>
+      <scan>
+        <horizontal>
+          <samples>640</samples>
+          <resolution>1</resolution>
+          <min_angle>-1.396263</min_angle>
+          <max_angle>1.396263</max_angle>
+        </horizontal>
+        <vertical>
+          <samples>1</samples>
+          <resolution>1</resolution>
+          <min_angle>0.0</min_angle>
+          <max_angle>0.0</max_angle>
+        </vertical>
+      </scan>
+      <range>
+        <min>0.08</min>
+        <max>10.0</max>
+        <resolution>0.01</resolution>
+      </range>
+    </lidar>
+    <visualize>true</visualize>
+  </sensor>
+</link> -->
 
     <joint name='lidar_sensor_joint' type='fixed'>
       <parent>MR-Buggy3/Base</parent>
