@@ -396,7 +396,11 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/udemy_ros2_pkg" TYPE PROGRAM FILES "/home/ingejohan/Workspaces/ros2_cpp_ws/src/udemy_ros2_pkg/src/obstacle_avoiding.py")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/udemy_ros2_pkg" TYPE PROGRAM FILES
+    "/home/ingejohan/Workspaces/ros2_cpp_ws/src/udemy_ros2_pkg/src/obstacle_avoiding.py"
+    "/home/ingejohan/Workspaces/ros2_cpp_ws/src/udemy_ros2_pkg/src/joystick_ros2/inputs.py"
+    "/home/ingejohan/Workspaces/ros2_cpp_ws/src/udemy_ros2_pkg/src/joystick_ros2/joystick_ros2.py"
+    )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)

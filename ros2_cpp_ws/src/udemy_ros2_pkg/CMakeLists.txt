@@ -71,6 +71,8 @@ target_link_libraries(action_client "${cpp_typesupport_target}")
 
 install(PROGRAMS 
 src/obstacle_avoiding.py
+src/joystick_ros2/inputs.py
+src/joystick_ros2/joystick_ros2.py
 DESTINATION lib/${PROJECT_NAME}
 )
 
