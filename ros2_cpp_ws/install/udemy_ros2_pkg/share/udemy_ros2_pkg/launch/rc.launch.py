@@ -63,11 +63,11 @@ def generate_launch_description():
             output='screen'
         ),
 
-        Node(
-            package='udemy_ros2_pkg',
-            executable='joystick_ros2.py',
-            output='screen'
-        ),
+        # Node(
+        #     package='udemy_ros2_pkg',
+        #     executable='joystick_ros2.py',
+        #     output='screen'
+        # ),
 
 
         # Node(
