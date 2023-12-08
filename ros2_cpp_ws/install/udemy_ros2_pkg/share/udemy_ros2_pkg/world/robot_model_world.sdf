@@ -17,8 +17,9 @@
         filename="ignition-gazebo-scene-broadcaster-system"
         name="gz::sim::systems::SceneBroadcaster">
     </plugin>
-    <!-- <plugin filename="ignition-gazebo-pose-publisher-system"
-        name="ignition::gazebo::system::PosePublisher">
+    
+    <!-- <plugin filename="ignition-gazebo6-pose-publisher-system"
+        name="gz::sim::systems::PosePublisher">
         <publish_sensor_pose>true</publish_sensor_pose>
         <use_pose_vector_msg>true</use_pose_vector_msg>
         <odom_publish_frequency>50</odom_publish_frequency>
@@ -44,14 +45,14 @@
                           <size>200 200</size>
                       </plane>
                   </geometry>
-                  <surface>
+                  <!-- <surface>
                       <friction>
                           <ode>
                               <mu>0.1</mu>
                               <mu2>0.5</mu2>
                           </ode>
                       </friction>
-                  </surface>
+                  </surface> -->
               </collision>
               <visual name="visual">
                   <geometry>
@@ -69,8 +70,165 @@
           </link>
       </model>
 
+      <model name='wall1'>
+        <static>true</static>
+        <pose>5 2 0 0 0 1.59</pose><!--pose relative to the world-->
+        <link name='box'>
+            <visual name='visual'>
+                <geometry>
+                    <box>
+                        <size>0.5 10.0 2.0</size>
+                    </box>
+                </geometry>
+                <!--let's add color to our link-->
+                <material>
+                    <ambient>0.0 0.0 1.0 1</ambient>
+                    <diffuse>0.0 0.0 1.0 1</diffuse>
+                    <specular>0.0 0.0 1.0 1</specular>
+                </material>
+            </visual>
+            <collision name='collision'>
+                <geometry>
+                    <box>
+                        <size>0.5 10.0 2.0</size>
+                    </box>
+                </geometry>
+            </collision>
+        </link>
+    </model>
+    <model name='wall2'>
+      <static>true</static>
+      <pose>5 -2 0 0 0 -1.59</pose><!--pose relative to the world-->
+      <link name='box'>
+          <visual name='visual'>
+              <geometry>
+                  <box>
+                      <size>0.5 10.0 2.0</size>
+                  </box>
+              </geometry>
+              <!--let's add color to our link-->
+              <material>
+                  <ambient>0.0 0.0 1.0 1</ambient>
+                  <diffuse>0.0 0.0 1.0 1</diffuse>
+                  <specular>0.0 0.0 1.0 1</specular>
+              </material>
+          </visual>
+          <collision name='collision'>
+              <geometry>
+                  <box>
+                      <size>0.5 10.0 2.0</size>
+                  </box>
+              </geometry>
+          </collision>
+      </link>
+    </model>
+    <model name='wall3'>
+      <static>true</static>
+      <pose>15 0 0 0 0 0</pose><!--pose relative to the world-->
+      <link name='box'>
+          <visual name='visual'>
+              <geometry>
+                  <box>
+                      <size>0.5 10.0 2.0</size>
+                  </box>
+              </geometry>
+              <!--let's add color to our link-->
+              <material>
+                  <ambient>0.0 0.0 1.0 1</ambient>
+                  <diffuse>0.0 0.0 1.0 1</diffuse>
+                  <specular>0.0 0.0 1.0 1</specular>
+              </material>
+          </visual>
+          <collision name='collision'>
+              <geometry>
+                  <box>
+                      <size>0.3 10.0 2.0</size>
+                  </box>
+              </geometry>
+          </collision>
+      </link>
+    </model>
+    <model name='wall4'>
+      <static>true</static>
+      <pose>-5 0 0 0 0 0</pose><!--pose relative to the world-->
+      <link name='box'>
+          <visual name='visual'>
+              <geometry>
+                  <box>
+                      <size>0.5 10.0 2.0</size>
+                  </box>
+              </geometry>
+              <!--let's add color to our link-->
+              <material>
+                  <ambient>0.0 0.0 1.0 1</ambient>
+                  <diffuse>0.0 0.0 1.0 1</diffuse>
+                  <specular>0.0 0.0 1.0 1</specular>
+              </material>
+          </visual>
+          <collision name='collision'>
+              <geometry>
+                  <box>
+                      <size>0.3 10.0 2.0</size>
+                  </box>
+              </geometry>
+          </collision>
+      </link>
+    </model>
+    <model name='wall5'>
+      <static>true</static>
+      <pose>5 5 0 0 0 1.59</pose><!--pose relative to the world-->
+      <link name='box'>
+          <visual name='visual'>
+              <geometry>
+                  <box>
+                      <size>0.5 20.0 2.0</size>
+                  </box>
+              </geometry>
+              <!--let's add color to our link-->
+              <material>
+                  <ambient>0.0 0.0 1.0 1</ambient>
+                  <diffuse>0.0 0.0 1.0 1</diffuse>
+                  <specular>0.0 0.0 1.0 1</specular>
+              </material>
+          </visual>
+          <collision name='collision'>
+              <geometry>
+                  <box>
+                      <size>0.5 20.0 2.0</size>
+                  </box>
+              </geometry>
+          </collision>
+      </link>
+    </model>
+    <model name='wall6'>
+      <static>true</static>
+      <pose>5 -5 0 0 0 1.59</pose><!--pose relative to the world-->
+      <link name='box'>
+          <visual name='visual'>
+              <geometry>
+                  <box>
+                      <size>0.5 20.0 2.0</size>
+                  </box>
+              </geometry>
+              <!--let's add color to our link-->
+              <material>
+                  <ambient>0.0 0.0 1.0 1</ambient>
+                  <diffuse>0.0 0.0 1.0 1</diffuse>
+                  <specular>0.0 0.0 1.0 1</specular>
+              </material>
+          </visual>
+          <collision name='collision'>
+              <geometry>
+                  <box>
+                      <size>0.5 20.0 2.0</size>
+                  </box>
+              </geometry>
+          </collision>
+      </link>
+    </model>
+
   
-      <model name="blue_cone_0">
+      <!-- <model name="blue_cone_0">
         <pose>-0.30805513 -44.272861 0 0 0 0</pose>
         <static>false</static>
           <link name="link">
@@ -82,7 +240,7 @@
                 </cylinder>
               </geometry>
               <material>
-                <ambient>0 0 1 1</ambient> <!-- Blue color -->
+                <ambient>0 0 1 1</ambient> 
               </material>
             </visual>
             <collision name="collision">
@@ -107,7 +265,7 @@
                 </cylinder>
               </geometry>
               <material>
-                <ambient>0 0 1 1</ambient> <!-- Blue color -->
+                <ambient>0 0 1 1</ambient> 
               </material>
             </visual>
             <collision name="collision">
@@ -132,7 +290,7 @@
                 </cylinder>
               </geometry>
               <material>
-                <ambient>0 0 1 1</ambient> <!-- Blue color -->
+                <ambient>0 0 1 1</ambient> 
               </material>
             </visual>
             <collision name="collision">
@@ -157,7 +315,7 @@
                 </cylinder>
               </geometry>
               <material>
-                <ambient>0 0 1 1</ambient> <!-- Blue color -->
+                <ambient>0 0 1 1</ambient> 
               </material>
             </visual>
             <collision name="collision">
@@ -182,7 +340,7 @@
                 </cylinder>
               </geometry>
               <material>
-                <ambient>0 0 1 1</ambient> <!-- Blue color -->
+                <ambient>0 0 1 1</ambient> 
               </material>
             </visual>
             <collision name="collision">
@@ -207,7 +365,7 @@
                 </cylinder>
               </geometry>
               <material>
-                <ambient>0 0 1 1</ambient> <!-- Blue color -->
+                <ambient>0 0 1 1</ambient> 
               </material>
             </visual>
             <collision name="collision">
@@ -232,7 +390,7 @@
                 </cylinder>
               </geometry>
               <material>
-                <ambient>0 0 1 1</ambient> <!-- Blue color -->
+                <ambient>0 0 1 1</ambient> 
               </material>
             </visual>
             <collision name="collision">
@@ -257,7 +415,7 @@
                 </cylinder>
               </geometry>
               <material>
-                <ambient>0 0 1 1</ambient> <!-- Blue color -->
+                <ambient>0 0 1 1</ambient> 
               </material>
             </visual>
             <collision name="collision">
@@ -282,7 +440,7 @@
                 </cylinder>
               </geometry>
               <material>
-                <ambient>0 0 1 1</ambient> <!-- Blue color -->
+                <ambient>0 0 1 1</ambient> 
               </material>
             </visual>
             <collision name="collision">
@@ -307,7 +465,7 @@
                 </cylinder>
               </geometry>
               <material>
-                <ambient>0 0 1 1</ambient> <!-- Blue color -->
+                <ambient>0 0 1 1</ambient> 
               </material>
             </visual>
             <collision name="collision">
@@ -332,7 +490,7 @@
                 </cylinder>
               </geometry>
               <material>
-                <ambient>0 0 1 1</ambient> <!-- Blue color -->
+                <ambient>0 0 1 1</ambient> 
               </material>
             </visual>
             <collision name="collision">
@@ -357,7 +515,7 @@
                 </cylinder>
               </geometry>
               <material>
-                <ambient>0 0 1 1</ambient> <!-- Blue color -->
+                <ambient>0 0 1 1</ambient> 
               </material>
             </visual>
             <collision name="collision">
@@ -382,7 +540,7 @@
                 </cylinder>
               </geometry>
               <material>
-                <ambient>0 0 1 1</ambient> <!-- Blue color -->
+                <ambient>0 0 1 1</ambient> 
               </material>
             </visual>
             <collision name="collision">
@@ -407,7 +565,7 @@
                 </cylinder>
               </geometry>
               <material>
-                <ambient>0 0 1 1</ambient> <!-- Blue color -->
+                <ambient>0 0 1 1</ambient> 
               </material>
             </visual>
             <collision name="collision">
@@ -432,7 +590,7 @@
                 </cylinder>
               </geometry>
               <material>
-                <ambient>0 0 1 1</ambient> <!-- Blue color -->
+                <ambient>0 0 1 1</ambient> 
               </material>
             </visual>
             <collision name="collision">
@@ -457,7 +615,7 @@
                 </cylinder>
               </geometry>
               <material>
-                <ambient>0 0 1 1</ambient> <!-- Blue color -->
+                <ambient>0 0 1 1</ambient> 
               </material>
             </visual>
             <collision name="collision">
@@ -482,7 +640,7 @@
                 </cylinder>
               </geometry>
               <material>
-                <ambient>0 0 1 1</ambient> <!-- Blue color -->
+                <ambient>0 0 1 1</ambient> 
               </material>
             </visual>
             <collision name="collision">
@@ -507,7 +665,7 @@
                 </cylinder>
               </geometry>
               <material>
-                <ambient>0 0 1 1</ambient> <!-- Blue color -->
+                <ambient>0 0 1 1</ambient> 
               </material>
             </visual>
             <collision name="collision">
@@ -532,7 +690,7 @@
                 </cylinder>
               </geometry>
               <material>
-                <ambient>0 0 1 1</ambient> <!-- Blue color -->
+                <ambient>0 0 1 1</ambient> 
               </material>
             </visual>
             <collision name="collision">
@@ -557,7 +715,7 @@
                 </cylinder>
               </geometry>
               <material>
-                <ambient>0 0 1 1</ambient> <!-- Blue color -->
+                <ambient>0 0 1 1</ambient> 
               </material>
             </visual>
             <collision name="collision">
@@ -582,7 +740,7 @@
                 </cylinder>
               </geometry>
               <material>
-                <ambient>0 0 1 1</ambient> <!-- Blue color -->
+                <ambient>0 0 1 1</ambient> 
               </material>
             </visual>
             <collision name="collision">
@@ -607,7 +765,7 @@
                 </cylinder>
               </geometry>
               <material>
-                <ambient>0 0 1 1</ambient> <!-- Blue color -->
+                <ambient>0 0 1 1</ambient> 
               </material>
             </visual>
             <collision name="collision">
@@ -632,7 +790,7 @@
                 </cylinder>
               </geometry>
               <material>
-                <ambient>0 0 1 1</ambient> <!-- Blue color -->
+                <ambient>0 0 1 1</ambient> 
               </material>
             </visual>
             <collision name="collision">
@@ -657,7 +815,7 @@
                 </cylinder>
               </geometry>
               <material>
-                <ambient>0 0 1 1</ambient> <!-- Blue color -->
+                <ambient>0 0 1 1</ambient> 
               </material>
             </visual>
             <collision name="collision">
@@ -682,7 +840,7 @@
                 </cylinder>
               </geometry>
               <material>
-                <ambient>0 0 1 1</ambient> <!-- Blue color -->
+                <ambient>0 0 1 1</ambient> 
               </material>
             </visual>
             <collision name="collision">
@@ -707,7 +865,7 @@
                 </cylinder>
               </geometry>
               <material>
-                <ambient>0 0 1 1</ambient> <!-- Blue color -->
+                <ambient>0 0 1 1</ambient> 
               </material>
             </visual>
             <collision name="collision">
@@ -732,7 +890,7 @@
               </cylinder>
             </geometry>
             <material>
-              <ambient>0 0 1 1</ambient> <!-- Blue color -->
+              <ambient>0 0 1 1</ambient> 
             </material>
           </visual>
           <collision name="collision">
@@ -757,7 +915,7 @@
                 </cylinder>
               </geometry>
               <material>
-                <ambient>0 0 1 1</ambient> <!-- Blue color -->
+                <ambient>0 0 1 1</ambient> 
               </material>
             </visual>
             <collision name="collision">
@@ -782,7 +940,7 @@
                 </cylinder>
               </geometry>
               <material>
-                <ambient>0 0 1 1</ambient> <!-- Blue color -->
+                <ambient>0 0 1 1</ambient> 
               </material>
             </visual>
             <collision name="collision">
@@ -807,7 +965,7 @@
                 </cylinder>
               </geometry>
               <material>
-                <ambient>0 0 1 1</ambient> <!-- Blue color -->
+                <ambient>0 0 1 1</ambient> 
               </material>
             </visual>
             <collision name="collision">
@@ -832,7 +990,7 @@
                 </cylinder>
               </geometry>
               <material>
-                <ambient>0 0 1 1</ambient> <!-- Blue color -->
+                <ambient>0 0 1 1</ambient> 
               </material>
             </visual>
             <collision name="collision">
@@ -857,7 +1015,7 @@
                 </cylinder>
               </geometry>
               <material>
-                <ambient>0 0 1 1</ambient> <!-- Blue color -->
+                <ambient>0 0 1 1</ambient> 
               </material>
             </visual>
             <collision name="collision">
@@ -882,7 +1040,7 @@
                 </cylinder>
               </geometry>
               <material>
-                <ambient>0 0 1 1</ambient> <!-- Blue color -->
+                <ambient>0 0 1 1</ambient> 
               </material>
             </visual>
             <collision name="collision">
@@ -907,7 +1065,7 @@
                 </cylinder>
               </geometry>
               <material>
-                <ambient>0 0 1 1</ambient> <!-- Blue color -->
+                <ambient>0 0 1 1</ambient> 
               </material>
             </visual>
             <collision name="collision">
@@ -932,7 +1090,7 @@
                 </cylinder>
               </geometry>
               <material>
-                <ambient>0 0 1 1</ambient> <!-- Blue color -->
+                <ambient>0 0 1 1</ambient> 
               </material>
             </visual>
             <collision name="collision">
@@ -957,7 +1115,7 @@
                 </cylinder>
               </geometry>
               <material>
-                <ambient>0 0 1 1</ambient> <!-- Blue color -->
+                <ambient>0 0 1 1</ambient> 
               </material>
             </visual>
             <collision name="collision">
@@ -982,7 +1140,7 @@
                 </cylinder>
               </geometry>
               <material>
-                <ambient>0 0 1 1</ambient> <!-- Blue color -->
+                <ambient>0 0 1 1</ambient> 
               </material>
             </visual>
             <collision name="collision">
@@ -1007,7 +1165,7 @@
                 </cylinder>
               </geometry>
               <material>
-                <ambient>0 0 1 1</ambient> <!-- Blue color -->
+                <ambient>0 0 1 1</ambient> 
               </material>
             </visual>
             <collision name="collision">
@@ -1032,7 +1190,7 @@
                 </cylinder>
               </geometry>
               <material>
-                <ambient>0 0 1 1</ambient> <!-- Blue color -->
+                <ambient>0 0 1 1</ambient> 
               </material>
             </visual>
             <collision name="collision">
@@ -1057,7 +1215,7 @@
                 </cylinder>
               </geometry>
               <material>
-                <ambient>0 0 1 1</ambient> <!-- Blue color -->
+                <ambient>0 0 1 1</ambient> 
               </material>
             </visual>
             <collision name="collision">
@@ -1082,7 +1240,7 @@
                 </cylinder>
               </geometry>
               <material>
-                <ambient>0 0 1 1</ambient> <!-- Blue color -->
+                <ambient>0 0 1 1</ambient> 
               </material>
             </visual>
             <collision name="collision">
@@ -1107,7 +1265,7 @@
                 </cylinder>
               </geometry>
               <material>
-                <ambient>0 0 1 1</ambient> <!-- Blue color -->
+                <ambient>0 0 1 1</ambient> 
               </material>
             </visual>
             <collision name="collision">
@@ -1132,7 +1290,7 @@
                 </cylinder>
               </geometry>
               <material>
-                <ambient>0 0 1 1</ambient> <!-- Blue color -->
+                <ambient>0 0 1 1</ambient> 
               </material>
             </visual>
             <collision name="collision">
@@ -1157,7 +1315,7 @@
                 </cylinder>
               </geometry>
               <material>
-                <ambient>0 0 1 1</ambient> <!-- Blue color -->
+                <ambient>0 0 1 1</ambient> 
               </material>
             </visual>
             <collision name="collision">
@@ -1186,7 +1344,7 @@
                 </cylinder>
               </geometry>
               <material>
-                <ambient>0 0 1 1</ambient> <!-- Blue color -->
+                <ambient>0 0 1 1</ambient> 
               </material>
             </visual>
             <collision name="collision">
@@ -1211,7 +1369,7 @@
                 </cylinder>
               </geometry>
               <material>
-                <ambient>0 0 1 1</ambient> <!-- Blue color -->
+                <ambient>0 0 1 1</ambient> 
               </material>
             </visual>
             <collision name="collision">
@@ -1236,7 +1394,7 @@
                 </cylinder>
               </geometry>
               <material>
-                <ambient>0 0 1 1</ambient> <!-- Blue color -->
+                <ambient>0 0 1 1</ambient> 
               </material>
             </visual>
             <collision name="collision">
@@ -1261,7 +1419,7 @@
                 </cylinder>
               </geometry>
               <material>
-                <ambient>0 0 1 1</ambient> <!-- Blue color -->
+                <ambient>0 0 1 1</ambient> 
               </material>
             </visual>
             <collision name="collision">
@@ -1286,7 +1444,7 @@
                 </cylinder>
               </geometry>
               <material>
-                <ambient>0 0 1 1</ambient> <!-- Blue color -->
+                <ambient>0 0 1 1</ambient> 
               </material>
             </visual>
             <collision name="collision">
@@ -1311,7 +1469,7 @@
                 </cylinder>
               </geometry>
               <material>
-                <ambient>0 0 1 1</ambient> <!-- Blue color -->
+                <ambient>0 0 1 1</ambient> 
               </material>
             </visual>
             <collision name="collision">
@@ -1336,7 +1494,7 @@
                 </cylinder>
               </geometry>
               <material>
-                <ambient>0 0 1 1</ambient> <!-- Blue color -->
+                <ambient>0 0 1 1</ambient> 
               </material>
             </visual>
             <collision name="collision">
@@ -1361,7 +1519,7 @@
                 </cylinder>
               </geometry>
               <material>
-                <ambient>0 0 1 1</ambient> <!-- Blue color -->
+                <ambient>0 0 1 1</ambient> 
               </material>
             </visual>
             <collision name="collision">
@@ -1386,7 +1544,7 @@
                 </cylinder>
               </geometry>
               <material>
-                <ambient>0 0 1 1</ambient> <!-- Blue color -->
+                <ambient>0 0 1 1</ambient> 
               </material>
             </visual>
             <collision name="collision">
@@ -1411,7 +1569,7 @@
                 </cylinder>
               </geometry>
               <material>
-                <ambient>0 0 1 1</ambient> <!-- Blue color -->
+                <ambient>0 0 1 1</ambient> 
               </material>
             </visual>
             <collision name="collision">
@@ -1436,7 +1594,7 @@
                 </cylinder>
               </geometry>
               <material>
-                <ambient>0 0 1 1</ambient> <!-- Blue color -->
+                <ambient>0 0 1 1</ambient> 
               </material>
             </visual>
             <collision name="collision">
@@ -1461,7 +1619,7 @@
                 </cylinder>
               </geometry>
               <material>
-                <ambient>0 0 1 1</ambient> <!-- Blue color -->
+                <ambient>0 0 1 1</ambient> 
               </material>
             </visual>
             <collision name="collision">
@@ -1486,7 +1644,7 @@
                 </cylinder>
               </geometry>
               <material>
-                <ambient>0 0 1 1</ambient> <!-- Blue color -->
+                <ambient>0 0 1 1</ambient> 
               </material>
             </visual>
             <collision name="collision">
@@ -1511,7 +1669,7 @@
                 </cylinder>
               </geometry>
               <material>
-                <ambient>0 0 1 1</ambient> <!-- Blue color -->
+                <ambient>0 0 1 1</ambient> 
               </material>
             </visual>
             <collision name="collision">
@@ -1536,7 +1694,7 @@
                 </cylinder>
               </geometry>
               <material>
-                <ambient>0 0 1 1</ambient> <!-- Blue color -->
+                <ambient>0 0 1 1</ambient> 
               </material>
             </visual>
             <collision name="collision">
@@ -1561,7 +1719,7 @@
                 </cylinder>
               </geometry>
               <material>
-                <ambient>0 0 1 1</ambient> <!-- Blue color -->
+                <ambient>0 0 1 1</ambient> 
               </material>
             </visual>
             <collision name="collision">
@@ -1586,7 +1744,7 @@
                 </cylinder>
               </geometry>
               <material>
-                <ambient>0 0 1 1</ambient> <!-- Blue color -->
+                <ambient>0 0 1 1</ambient> 
               </material>
             </visual>
             <collision name="collision">
@@ -1611,7 +1769,7 @@
                 </cylinder>
               </geometry>
               <material>
-                <ambient>0 0 1 1</ambient> <!-- Blue color -->
+                <ambient>0 0 1 1</ambient> 
               </material>
             </visual>
             <collision name="collision">
@@ -1636,7 +1794,7 @@
                 </cylinder>
               </geometry>
               <material>
-                <ambient>0 0 1 1</ambient> <!-- Blue color -->
+                <ambient>0 0 1 1</ambient> 
               </material>
             </visual>
             <collision name="collision">
@@ -1661,7 +1819,7 @@
                 </cylinder>
               </geometry>
               <material>
-                <ambient>0 0 1 1</ambient> <!-- Blue color -->
+                <ambient>0 0 1 1</ambient> 
               </material>
             </visual>
             <collision name="collision">
@@ -1686,7 +1844,7 @@
                 </cylinder>
               </geometry>
               <material>
-                <ambient>0 0 1 1</ambient> <!-- Blue color -->
+                <ambient>0 0 1 1</ambient> 
               </material>
             </visual>
             <collision name="collision">
@@ -1711,7 +1869,7 @@
                 </cylinder>
               </geometry>
               <material>
-                <ambient>0 0 1 1</ambient> <!-- Blue color -->
+                <ambient>0 0 1 1</ambient> 
               </material>
             </visual>
             <collision name="collision">
@@ -1736,7 +1894,7 @@
                 </cylinder>
               </geometry>
               <material>
-                <ambient>0 0 1 1</ambient> <!-- Blue color -->
+                <ambient>0 0 1 1</ambient> 
               </material>
             </visual>
             <collision name="collision">
@@ -1761,7 +1919,7 @@
                 </cylinder>
               </geometry>
               <material>
-                <ambient>0 0 1 1</ambient> <!-- Blue color -->
+                <ambient>0 0 1 1</ambient> 
               </material>
             </visual>
             <collision name="collision">
@@ -1786,7 +1944,7 @@
                 </cylinder>
               </geometry>
               <material>
-                <ambient>0 0 1 1</ambient> <!-- Blue color -->
+                <ambient>0 0 1 1</ambient> 
               </material>
             </visual>
             <collision name="collision">
@@ -1811,7 +1969,7 @@
                 </cylinder>
               </geometry>
               <material>
-                <ambient>0 0 1 1</ambient> <!-- Blue color -->
+                <ambient>0 0 1 1</ambient> 
               </material>
             </visual>
             <collision name="collision">
@@ -1836,7 +1994,7 @@
                 </cylinder>
               </geometry>
               <material>
-                <ambient>0 0 1 1</ambient> <!-- Blue color -->
+                <ambient>0 0 1 1</ambient> 
               </material>
             </visual>
             <collision name="collision">
@@ -1861,7 +2019,7 @@
                 </cylinder>
               </geometry>
               <material>
-                <ambient>0 0 1 1</ambient> <!-- Blue color -->
+                <ambient>0 0 1 1</ambient> 
               </material>
             </visual>
             <collision name="collision">
@@ -1886,7 +2044,7 @@
                 </cylinder>
               </geometry>
               <material>
-                <ambient>0 0 1 1</ambient> <!-- Blue color -->
+                <ambient>0 0 1 1</ambient> 
               </material>
             </visual>
             <collision name="collision">
@@ -1911,7 +2069,7 @@
                 </cylinder>
               </geometry>
               <material>
-                <ambient>0 0 1 1</ambient> <!-- Blue color -->
+                <ambient>0 0 1 1</ambient> 
               </material>
             </visual>
             <collision name="collision">
@@ -1936,7 +2094,7 @@
                 </cylinder>
               </geometry>
               <material>
-                <ambient>0 0 1 1</ambient> <!-- Blue color -->
+                <ambient>0 0 1 1</ambient> 
               </material>
             </visual>
             <collision name="collision">
@@ -1961,7 +2119,7 @@
                 </cylinder>
               </geometry>
               <material>
-                <ambient>0 0 1 1</ambient> <!-- Blue color -->
+                <ambient>0 0 1 1</ambient> 
               </material>
             </visual>
             <collision name="collision">
@@ -1986,7 +2144,7 @@
                 </cylinder>
               </geometry>
               <material>
-                <ambient>0 0 1 1</ambient> <!-- Blue color -->
+                <ambient>0 0 1 1</ambient> 
               </material>
             </visual>
             <collision name="collision">
@@ -2011,7 +2169,7 @@
                 </cylinder>
               </geometry>
               <material>
-                <ambient>0 0 1 1</ambient> <!-- Blue color -->
+                <ambient>0 0 1 1</ambient> 
               </material>
             </visual>
             <collision name="collision">
@@ -2036,7 +2194,7 @@
                 </cylinder>
               </geometry>
               <material>
-                <ambient>0 0 1 1</ambient> <!-- Blue color -->
+                <ambient>0 0 1 1</ambient> 
               </material>
             </visual>
             <collision name="collision">
@@ -2061,7 +2219,7 @@
                 </cylinder>
               </geometry>
               <material>
-                <ambient>0 0 1 1</ambient> <!-- Blue color -->
+                <ambient>0 0 1 1</ambient> 
               </material>
             </visual>
             <collision name="collision">
@@ -2086,7 +2244,7 @@
                 </cylinder>
               </geometry>
               <material>
-                <ambient>0 0 1 1</ambient> <!-- Blue color -->
+                <ambient>0 0 1 1</ambient> 
               </material>
             </visual>
             <collision name="collision">
@@ -2111,7 +2269,7 @@
                 </cylinder>
               </geometry>
               <material>
-                <ambient>0 0 1 1</ambient> <!-- Blue color -->
+                <ambient>0 0 1 1</ambient> 
               </material>
             </visual>
             <collision name="collision">
@@ -2136,7 +2294,7 @@
                 </cylinder>
               </geometry>
               <material>
-                <ambient>0 0 1 1</ambient> <!-- Blue color -->
+                <ambient>0 0 1 1</ambient> 
               </material>
             </visual>
             <collision name="collision">
@@ -2161,7 +2319,7 @@
                 </cylinder>
               </geometry>
               <material>
-                <ambient>0 0 1 1</ambient> <!-- Blue color -->
+                <ambient>0 0 1 1</ambient> 
               </material>
             </visual>
             <collision name="collision">
@@ -2186,7 +2344,7 @@
                 </cylinder>
               </geometry>
               <material>
-                <ambient>0 0 1 1</ambient> <!-- Blue color -->
+                <ambient>0 0 1 1</ambient> 
               </material>
             </visual>
             <collision name="collision">
@@ -2211,7 +2369,7 @@
                 </cylinder>
               </geometry>
               <material>
-                <ambient>0 0 1 1</ambient> <!-- Blue color -->
+                <ambient>0 0 1 1</ambient> 
               </material>
             </visual>
             <collision name="collision">
@@ -2236,7 +2394,7 @@
                 </cylinder>
               </geometry>
               <material>
-                <ambient>0 0 1 1</ambient> <!-- Blue color -->
+                <ambient>0 0 1 1</ambient> 
               </material>
             </visual>
             <collision name="collision">
@@ -2261,7 +2419,7 @@
                 </cylinder>
               </geometry>
               <material>
-                <ambient>0 0 1 1</ambient> <!-- Blue color -->
+                <ambient>0 0 1 1</ambient> 
               </material>
             </visual>
             <collision name="collision">
@@ -2286,7 +2444,7 @@
                 </cylinder>
               </geometry>
               <material>
-                <ambient>0 0 1 1</ambient> <!-- Blue color -->
+                <ambient>0 0 1 1</ambient> 
               </material>
             </visual>
             <collision name="collision">
@@ -2311,7 +2469,7 @@
                 </cylinder>
               </geometry>
               <material>
-                <ambient>0 0 1 1</ambient> <!-- Blue color -->
+                <ambient>0 0 1 1</ambient> 
               </material>
             </visual>
             <collision name="collision">
@@ -2336,7 +2494,7 @@
                 </cylinder>
               </geometry>
               <material>
-                <ambient>0 0 1 1</ambient> <!-- Blue color -->
+                <ambient>0 0 1 1</ambient> 
               </material>
             </visual>
             <collision name="collision">
@@ -2348,10 +2506,455 @@
               </geometry>
             </collision>
           </link>
+      </model> -->
+      <model name="MR-Buggy3">
+        <pose>0 0 .04 0 0 0</pose>
+        <self_collide>false</self_collide>
+        <static>false</static>
+        <link name="MR-Buggy3/Base">
+          <inertial>
+            <pose>0 0 0 0 0 0</pose>
+            <mass>3.0</mass>
+            <inertia>
+              <ixx>0.0054</ixx>
+              <ixy>0</ixy>
+              <ixz>0</ixz>
+              <iyy>0.0252</iyy>
+              <iyz>0</iyz>
+              <izz>0.0252</izz>
+            </inertia>
+          </inertial>
+          <visual name="MR-Buggy3/BaseVisual">
+            <pose>.1371 0 -.0115 -0.018 0 1.5707</pose>
+            <geometry>
+              <mesh>
+                <uri>/home/ingejohan/Workspaces/ros2_cpp_ws/src/udemy_ros2_pkg/models/RC/BaseReduced.dae</uri>
+              </mesh>
+            </geometry>
+          </visual>
+          <visual name="MR-Buggy3/TopVisual">
+            <pose>.1371 0 -.0115 -0.018 0 1.5707</pose>
+            <geometry>
+              <mesh>
+                <uri>/home/ingejohan/Workspaces/ros2_cpp_ws/src/udemy_ros2_pkg/models/RC/TopReduced.dae</uri>
+              </mesh>
+            </geometry>
+          </visual>
+          <collision name="MR-Buggy3/BaseCollision">
+            <pose>0 0 .06 0 0 0</pose>
+            <geometry>
+              <box>
+                <size>.3 .09 .12</size>
+              </box>
+            </geometry>
+          </collision>
+          <sensor name="NPUSim/Camera" type="camera">
+            <pose>.16 0 .3 0 0.5 0</pose>
+            <always_on>1</always_on>
+            <update_rate>10</update_rate>
+            <camera>
+              <horizontal_fov>1.5</horizontal_fov>
+              <image>
+                <width>300</width>
+                <height>300</height>
+                <format>R8G8B8</format>
+              </image>
+              <clip>
+                <near>0.1</near>
+                <far>1000</far>
+              </clip>
+            </camera>
+            <topic>NPU/image_sim</topic>
+            <enable_metrics>true</enable_metrics>
+          </sensor>
+        </link>
+        <link name="MR-Buggy3/FrontRightWheel">
+          <pose relative_to="MR-Buggy3/FrontRightWheelJoint">0 0 0 0 0 0</pose>
+          <inertial>
+            <mass>.05</mass>
+            <inertia>
+              <ixx>0.00003331</ixx>
+              <ixy>0</ixy>
+              <ixz>0</ixz>
+              <iyy>0.0000204</iyy>
+              <iyz>0</iyz>
+              <izz>0.0000204</izz>
+            </inertia>
+          </inertial>
+          <gravity>true</gravity>
+          <velocity_decay/>
+          <visual name="MR-Buggy3/FrontRightWheelVisual">
+            <pose>0 0 0 0 0 0</pose>
+            <geometry>
+              <mesh>
+                <uri>/home/ingejohan/Workspaces/ros2_cpp_ws/src/udemy_ros2_pkg/models/RC/Wheel.dae</uri>
+              </mesh>
+            </geometry>
+          </visual>
+          <collision name="MR-Buggy3/FrontRightWheelCollision">
+            <pose>0 .015 0 -1.5707 0 0</pose>
+            <geometry>
+              <cylinder>
+                <length>0.03</length>
+                <radius>0.0365</radius>
+              </cylinder>
+            </geometry>
+            <surface>
+              <friction>
+                <ode>
+                  <mu>0.5</mu>
+                  <mu2>1.0</mu2>
+                  <fdir1>0 0 1</fdir1>
+                </ode>
+              </friction>
+            </surface>
+          </collision>
+        </link>
+        <link name="MR-Buggy3/FrontRightWheelSteering">
+          <pose relative_to="MR-Buggy3/FrontRightWheelSteeringJoint">0 0 0 0 0 0</pose>
+          <inertial>
+            <mass>0.005</mass>
+            <inertia>
+              <ixx>0.0000018</ixx>
+              <iyy>0.0000018</iyy>
+              <izz>0.0000018</izz>
+            </inertia>
+          </inertial>
+        </link>
+        <link name="MR-Buggy3/FrontLeftWheel">
+          <pose relative_to="MR-Buggy3/FrontLeftWheelJoint">0 0 0 0 0 0</pose>
+          <inertial>
+            <mass>.05</mass>
+            <inertia>
+              <ixx>0.00003331</ixx>
+              <ixy>0</ixy>
+              <ixz>0</ixz>
+              <iyy>0.0000204</iyy>
+              <iyz>0</iyz>
+              <izz>0.0000204</izz>
+            </inertia>
+          </inertial>
+          <gravity>true</gravity>
+          <velocity_decay/>
+          <visual name="MR-Buggy3/FrontLeftWheelVisual">
+            <pose>0 0 0 0 0 3.14159</pose>
+            <geometry>
+              <mesh>
+                <uri>/home/ingejohan/Workspaces/ros2_cpp_ws/src/udemy_ros2_pkg/models/RC/Wheel.dae</uri>
+              </mesh>
+            </geometry>
+          </visual>
+          <collision name="MR-Buggy3/FrontLeftWheelCollision">
+            <pose>0 -.015 0 -1.5707 0 0</pose>
+            <geometry>
+              <cylinder>
+                <length>0.03</length>
+                <radius>0.0365</radius>
+              </cylinder>
+            </geometry>
+            <surface>
+              <friction>
+                <ode>
+                  <mu>0.5</mu>
+                  <mu2>1.0</mu2>
+                  <fdir1>0 0 1</fdir1>
+                </ode>
+              </friction>
+            </surface>
+          </collision>
+        </link>
+        <link name="MR-Buggy3/FrontLeftWheelSteering">
+          <pose relative_to="MR-Buggy3/FrontLeftWheelSteeringJoint">0 0 0 0 0 0</pose>
+          <inertial>
+            <mass>0.005</mass>
+            <inertia>
+              <ixx>0.0000018</ixx>
+              <iyy>0.0000018</iyy>
+              <izz>0.0000018</izz>
+            </inertia>
+          </inertial>
+        </link>
+        <link name="MR-Buggy3/RearRightWheel">
+          <pose relative_to="MR-Buggy3/RearRightWheelJoint">0 0 0 0 0 0</pose>
+          <inertial>
+            <mass>.05</mass>
+            <inertia>
+              <ixx>0.00003331</ixx>
+              <ixy>0</ixy>
+              <ixz>0</ixz>
+              <iyy>0.0000204</iyy>
+              <iyz>0</iyz>
+              <izz>0.0000204</izz>
+            </inertia>
+          </inertial>
+          <gravity>true</gravity>
+          <velocity_decay/>
+          <visual name="MR-Buggy3/RearRightWheelVisual">
+            <pose>0 0 0 0 0 0</pose>
+            <geometry>
+              <mesh>
+                <uri>/home/ingejohan/Workspaces/ros2_cpp_ws/src/udemy_ros2_pkg/models/RC/Wheel.dae</uri>
+              </mesh>
+            </geometry>
+          </visual>
+          <collision name="MR-Buggy3/RearRightWheelCollision">
+            <pose>0 .015 0 -1.5707 0 0</pose>
+            <geometry>
+              <cylinder>
+                <length>0.03</length>
+                <radius>0.0365</radius>
+              </cylinder>
+            </geometry>
+            <surface>
+              <friction>
+                <ode>
+                  <mu>0.5</mu>
+                  <mu2>1.0</mu2>
+                  <fdir1>0 0 1</fdir1>
+                </ode>
+              </friction>
+            </surface>
+          </collision>
+        </link>
+        <link name="MR-Buggy3/RearLeftWheel">
+          <pose relative_to="MR-Buggy3/RearLeftWheelJoint">0 0 0 0 0 0</pose>
+          <inertial>
+            <mass>.05</mass>
+            <inertia>
+              <ixx>0.00003331</ixx>
+              <ixy>0</ixy>
+              <ixz>0</ixz>
+              <iyy>0.0000204</iyy>
+              <iyz>0</iyz>
+              <izz>0.0000204</izz>
+            </inertia>
+          </inertial>
+          <gravity>true</gravity>
+          <velocity_decay/>
+          <visual name="MR-Buggy3/RearLeftWheelVisual">
+            <pose>0 0 0 0 0 3.14159</pose>
+            <geometry>
+              <mesh>
+                <uri>/home/ingejohan/Workspaces/ros2_cpp_ws/src/udemy_ros2_pkg/models/RC/Wheel.dae</uri>
+              </mesh>
+            </geometry>
+          </visual>
+          <collision name="MR-Buggy3/RearLeftWheelCollision">
+            <pose>0 -.015 0 -1.5707 0 0</pose>
+            <geometry>
+              <cylinder>
+                <length>0.03</length>
+                <radius>0.0365</radius>
+              </cylinder>
+            </geometry>
+            <surface>
+              <friction>
+                <ode>
+                  <mu>0.5</mu>
+                  <mu2>1.0</mu2>
+                  <fdir1>0 0 1</fdir1>
+                </ode>
+              </friction>
+            </surface>
+          </collision>
+        </link>
+    
+    <!-- Lidar -->
+      <!-- <model name="model_with_lidar"> -->
+        <link name="lidar_link">
+          <pose>0.08 0 0.065 0 0 0</pose>
+          <inertial>
+            <mass>0.0001</mass>
+            <inertia>
+              <ixx>0.000166667</ixx>
+              <iyy>0.000166667</iyy>
+              <izz>0.000166667</izz>
+            </inertia>
+          </inertial>
+          <collision name="collision">
+            <geometry>
+              <box>
+                <size>0.1 0.1 0.1</size>
+              </box>
+            </geometry>
+          </collision>
+          <visual name="visual">
+            <geometry>
+              <box>
+                <size>0.1 0.1 0.1</size>
+              </box>
+            </geometry>
+          </visual>
+    
+          <sensor name='gpu_lidar' type='gpu_lidar'>
+            <!-- <pose relative_to="lidar_link">0 0 0 0 0 0</pose> -->
+            <topic>lidar</topic>
+            <update_rate>10</update_rate>
+            <ray>
+              <scan>
+                <horizontal>
+                  <samples>80</samples>
+                  <resolution>1</resolution>
+                  <min_angle>-1.396263</min_angle>
+                  <max_angle>1.396263</max_angle>
+                </horizontal>
+                <vertical>
+                  <samples>1</samples>
+                  <resolution>0.01</resolution>
+                  <min_angle>0</min_angle>
+                  <max_angle>0</max_angle>
+                </vertical>
+              </scan>
+              <range>
+                <min>0.08</min>
+                <max>10.0</max>
+                <resolution>0.01</resolution>
+              </range>
+            </ray>
+            <alwaysOn>1</alwaysOn>
+            <visualize>true</visualize>
+          </sensor>
+        </link>
+        <static>true</static>
+      <!-- </model> -->
+    
+      
+    
+        <joint name='lidar_sensor_joint' type='fixed'>
+          <parent>MR-Buggy3/Base</parent>
+          <child>lidar_link</child>
+        </joint>
+    
+    <!-- Lidar end -->
+    
+        
+        <joint name="MR-Buggy3/FrontRightWheelSteeringJoint" type="revolute">
+          <parent>MR-Buggy3/Base</parent>
+          <child>MR-Buggy3/FrontRightWheelSteering</child>
+          <pose relative_to="MR-Buggy3/Base">.112 -.10 0 0 0 0</pose>
+          <axis>
+            <xyz>0 0 1</xyz>
+            <limit>
+              <lower>-0.6</lower>
+              <upper>0.6</upper>
+              <velocity>1.0</velocity>
+              <effort>25</effort>
+            </limit>
+            <use_parent_model_frame>1</use_parent_model_frame>
+          </axis>
+        </joint>
+        <joint name="MR-Buggy3/FrontRightWheelJoint" type="revolute">
+          <parent>MR-Buggy3/FrontRightWheelSteering</parent>
+          <child>MR-Buggy3/FrontRightWheel</child>
+          <pose relative_to="MR-Buggy3/FrontRightWheelSteeringJoint">0 0 0 0 0 0</pose>
+          <axis>
+            <xyz>0 1 0</xyz>
+            <limit>
+              <lower>-1.79769e+308</lower>
+              <upper>1.79769e+308</upper>
+            </limit>
+            <dynamics>
+              <spring_reference>0</spring_reference>
+              <spring_stiffness>0</spring_stiffness>
+            </dynamics>
+            <use_parent_model_frame>1</use_parent_model_frame>
+          </axis>
+        </joint>
+        <joint name="MR-Buggy3/FrontLeftWheelSteeringJoint" type="revolute">
+          <parent>MR-Buggy3/Base</parent>
+          <child>MR-Buggy3/FrontLeftWheelSteering</child>
+          <pose relative_to="MR-Buggy3/Base">.112 .10 0 0 0 0</pose>
+          <axis>
+            <xyz>0 0 1</xyz>
+            <limit>
+              <lower>-0.6</lower>
+              <upper>0.6</upper>
+              <velocity>1.0</velocity>
+              <effort>25</effort>
+            </limit>
+            <use_parent_model_frame>1</use_parent_model_frame>
+          </axis>
+        </joint>
+        <joint name="MR-Buggy3/FrontLeftWheelJoint" type="revolute">
+          <parent>MR-Buggy3/FrontLeftWheelSteering</parent>
+          <child>MR-Buggy3/FrontLeftWheel</child>
+          <pose relative_to="MR-Buggy3/FrontLeftWheelSteeringJoint">0 0 0 0 0 0</pose>
+          <axis>
+            <xyz>0 1 0</xyz>
+            <limit>
+              <lower>-1.79769e+308</lower>
+              <upper>1.79769e+308</upper>
+            </limit>
+            <dynamics>
+              <spring_reference>0</spring_reference>
+              <spring_stiffness>0</spring_stiffness>
+            </dynamics>
+            <use_parent_model_frame>1</use_parent_model_frame>
+          </axis>
+        </joint>
+        <joint name="MR-Buggy3/RearRightWheelJoint" type="revolute">
+          <parent>MR-Buggy3/Base</parent>
+          <child>MR-Buggy3/RearRightWheel</child>
+          <pose relative_to="MR-Buggy3/Base">-.1135 -.10 0 0 0 0</pose>
+          <axis>
+            <xyz>0 1 0</xyz>
+            <limit>
+              <lower>-1.79769e+308</lower>
+              <upper>1.79769e+308</upper>
+            </limit>
+            <dynamics>
+              <spring_reference>0</spring_reference>
+              <spring_stiffness>0</spring_stiffness>
+            </dynamics>
+            <use_parent_model_frame>1</use_parent_model_frame>
+          </axis>
+        </joint>
+        <joint name="MR-Buggy3/RearLeftWheelJoint" type="revolute">
+          <parent>MR-Buggy3/Base</parent>
+          <child>MR-Buggy3/RearLeftWheel</child>
+          <pose relative_to="MR-Buggy3/Base">-.1135 .10 0 0 0 0</pose>
+          <axis>
+            <xyz>0 1 0</xyz>
+            <limit>
+              <lower>-1.79769e+308</lower>
+              <upper>1.79769e+308</upper>
+            </limit>
+            <dynamics>
+              <spring_reference>0</spring_reference>
+              <spring_stiffness>0</spring_stiffness>
+            </dynamics>
+            <use_parent_model_frame>1</use_parent_model_frame>
+          </axis>
+        </joint>
+        <plugin
+          filename="ignition-gazebo-ackermann-steering-system"
+          name="ignition::gazebo::systems::AckermannSteering">
+          <left_joint>MR-Buggy3/FrontLeftWheelJoint</left_joint>
+          <left_joint>MR-Buggy3/RearLeftWheelJoint</left_joint>
+          <right_joint>MR-Buggy3/FrontRightWheelJoint</right_joint>
+          <right_joint>MR-Buggy3/FrontRightWheelJoint</right_joint>
+          <left_steering_joint>MR-Buggy3/FrontLeftWheelSteeringJoint</left_steering_joint>
+          <right_steering_joint>MR-Buggy3/FrontRightWheelSteeringJoint</right_steering_joint>
+          <kingpin_width>.18</kingpin_width>
+          <steering_limit>0.61</steering_limit>
+          <wheel_base>.2255</wheel_base>
+          <wheel_separation>.2</wheel_separation>
+          <wheel_radius>0.0365</wheel_radius>
+          <min_velocity>-100</min_velocity>
+          <max_velocity>100</max_velocity>
+          <min_acceleration>-50</min_acceleration>
+          <max_acceleration>50</max_acceleration>
+          <topic>/cmd_vel</topic>
+        </plugin>
+        <plugin filename="ignition-gazebo6-pose-publisher-system"
+            name="gz::sim::systems::PosePublisher">
+            <publish_sensor_pose>true</publish_sensor_pose>
+            <use_pose_vector_msg>true</use_pose_vector_msg>
+            <odom_publish_frequency>50</odom_publish_frequency>
+        </plugin>
       </model>
-
-    <include>
+    <!-- <include>
       <uri>/home/ingejohan/Workspaces/ros2_cpp_ws/src/udemy_ros2_pkg/models/RC/model.sdf</uri>
-    </include> 
+    </include>  -->
   </world>
 </sdf>

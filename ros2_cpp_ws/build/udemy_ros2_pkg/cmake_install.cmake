@@ -616,6 +616,10 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/udemy_ros2_pkg/" TYPE DIRECTORY FILES "/home/ingejohan/Workspaces/ros2_cpp_ws/src/udemy_ros2_pkg/config")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/package_run_dependencies" TYPE FILE FILES "/home/ingejohan/Workspaces/ros2_cpp_ws/build/udemy_ros2_pkg/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/udemy_ros2_pkg")
 endif()
 

@@ -1,0 +1,362 @@
+[0.083s] Invoking command in '/home/ingejohan/Workspaces/ros2_cpp_ws/build/udemy_ros2_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ingejohan/ros2_ws/install/rover:/home/ingejohan/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/ingejohan/Workspaces/ros2_cpp_ws/build/udemy_ros2_pkg -- -j16 -l16
+[0.125s] [  5%] Built target udemy_ros2_pkg__cpp
+[0.125s] [  8%] Built target udemy_ros2_pkg__rosidl_generator_c
+[0.127s] [ 16%] Built target publisher
+[0.127s] [ 16%] Built target subscriber
+[0.127s] [ 20%] Built target rpm_pub
+[0.127s] [ 20%] Built target speed_calc
+[0.132s] [ 20%] Built target ament_cmake_python_copy_udemy_ros2_pkg
+[0.142s] [ 35%] Built target udemy_ros2_pkg__rosidl_typesupport_c
+[0.143s] [ 35%] Built target udemy_ros2_pkg__rosidl_typesupport_introspection_c
+[0.143s] [ 43%] Built target udemy_ros2_pkg__rosidl_typesupport_fastrtps_c
+[0.143s] [ 50%] Built target udemy_ros2_pkg__rosidl_typesupport_introspection_cpp
+[0.145s] [ 58%] Built target udemy_ros2_pkg__rosidl_typesupport_cpp
+[0.146s] [ 65%] Built target udemy_ros2_pkg__rosidl_typesupport_fastrtps_cpp
+[0.165s] [ 73%] Built target service_server
+[0.165s] [ 73%] Built target service_client
+[0.165s] [ 74%] Built target action_server
+[0.165s] [ 79%] Built target turn_camera_service
+[0.166s] [ 80%] Built target turn_camera_client
+[0.167s] [ 83%] Built target action_client
+[0.180s] [ 83%] Built target udemy_ros2_pkg
+[0.195s] [ 85%] Built target udemy_ros2_pkg__py
+[0.212s] [ 91%] Built target udemy_ros2_pkg__rosidl_generator_py
+[0.229s] [ 97%] Built target udemy_ros2_pkg__rosidl_typesupport_introspection_c__pyext
+[0.229s] [ 98%] Built target udemy_ros2_pkg__rosidl_typesupport_fastrtps_c__pyext
+[0.229s] [100%] Built target udemy_ros2_pkg__rosidl_typesupport_c__pyext
+[0.383s] running egg_info
+[0.384s] writing udemy_ros2_pkg.egg-info/PKG-INFO
+[0.384s] writing dependency_links to udemy_ros2_pkg.egg-info/dependency_links.txt
+[0.384s] writing top-level names to udemy_ros2_pkg.egg-info/top_level.txt
+[0.387s] reading manifest file 'udemy_ros2_pkg.egg-info/SOURCES.txt'
+[0.388s] writing manifest file 'udemy_ros2_pkg.egg-info/SOURCES.txt'
+[0.408s] [100%] Built target ament_cmake_python_build_udemy_ros2_pkg_egg
+[0.417s] Invoked command in '/home/ingejohan/Workspaces/ros2_cpp_ws/build/udemy_ros2_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ingejohan/ros2_ws/install/rover:/home/ingejohan/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/ingejohan/Workspaces/ros2_cpp_ws/build/udemy_ros2_pkg -- -j16 -l16
+[0.508s] Invoking command in '/home/ingejohan/Workspaces/ros2_cpp_ws/build/udemy_ros2_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ingejohan/ros2_ws/install/rover:/home/ingejohan/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/ingejohan/Workspaces/ros2_cpp_ws/build/udemy_ros2_pkg
+[0.515s] -- Install configuration: ""
+[0.515s] -- Up-to-date: /home/ingejohan/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/share/ament_index/resource_index/rosidl_interfaces/udemy_ros2_pkg
+[0.515s] -- Up-to-date: /home/ingejohan/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/include/udemy_ros2_pkg/udemy_ros2_pkg
+[0.515s] -- Up-to-date: /home/ingejohan/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/include/udemy_ros2_pkg/udemy_ros2_pkg/action
+[0.515s] -- Up-to-date: /home/ingejohan/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/include/udemy_ros2_pkg/udemy_ros2_pkg/action/navigate.h
+[0.515s] -- Up-to-date: /home/ingejohan/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/include/udemy_ros2_pkg/udemy_ros2_pkg/action/detail
+[0.515s] -- Up-to-date: /home/ingejohan/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/include/udemy_ros2_pkg/udemy_ros2_pkg/action/detail/navigate__struct.h
+[0.515s] -- Up-to-date: /home/ingejohan/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/include/udemy_ros2_pkg/udemy_ros2_pkg/action/detail/navigate__functions.h
+[0.515s] -- Up-to-date: /home/ingejohan/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/include/udemy_ros2_pkg/udemy_ros2_pkg/action/detail/navigate__type_support.h
+[0.515s] -- Up-to-date: /home/ingejohan/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/include/udemy_ros2_pkg/udemy_ros2_pkg/action/detail/navigate__functions.c
+[0.516s] -- Up-to-date: /home/ingejohan/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/include/udemy_ros2_pkg/udemy_ros2_pkg/srv
+[0.516s] -- Up-to-date: /home/ingejohan/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/include/udemy_ros2_pkg/udemy_ros2_pkg/srv/odd_even_check.h
+[0.516s] -- Up-to-date: /home/ingejohan/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/include/udemy_ros2_pkg/udemy_ros2_pkg/srv/turn_camera.h
+[0.516s] -- Up-to-date: /home/ingejohan/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/include/udemy_ros2_pkg/udemy_ros2_pkg/srv/detail
+[0.516s] -- Up-to-date: /home/ingejohan/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/include/udemy_ros2_pkg/udemy_ros2_pkg/srv/detail/odd_even_check__type_support.h
+[0.516s] -- Up-to-date: /home/ingejohan/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/include/udemy_ros2_pkg/udemy_ros2_pkg/srv/detail/turn_camera__functions.c
+[0.516s] -- Up-to-date: /home/ingejohan/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/include/udemy_ros2_pkg/udemy_ros2_pkg/srv/detail/turn_camera__type_support.h
+[0.516s] -- Up-to-date: /home/ingejohan/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/include/udemy_ros2_pkg/udemy_ros2_pkg/srv/detail/odd_even_check__struct.h
+[0.516s] -- Up-to-date: /home/ingejohan/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/include/udemy_ros2_pkg/udemy_ros2_pkg/srv/detail/turn_camera__functions.h
+[0.516s] -- Up-to-date: /home/ingejohan/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/include/udemy_ros2_pkg/udemy_ros2_pkg/srv/detail/turn_camera__struct.h
+[0.516s] -- Up-to-date: /home/ingejohan/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/include/udemy_ros2_pkg/udemy_ros2_pkg/srv/detail/odd_even_check__functions.c
+[0.517s] -- Up-to-date: /home/ingejohan/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/include/udemy_ros2_pkg/udemy_ros2_pkg/srv/detail/odd_even_check__functions.h
+[0.517s] -- Up-to-date: /home/ingejohan/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/include/udemy_ros2_pkg/udemy_ros2_pkg/msg
+[0.517s] -- Up-to-date: /home/ingejohan/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/include/udemy_ros2_pkg/udemy_ros2_pkg/msg/rosidl_generator_c__visibility_control.h
+[0.517s] -- Up-to-date: /home/ingejohan/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg/environment/library_path.sh
+[0.517s] -- Up-to-date: /home/ingejohan/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg/environment/library_path.dsv
+[0.517s] -- Up-to-date: /home/ingejohan/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/lib/libudemy_ros2_pkg__rosidl_generator_c.so
+[0.517s] -- Up-to-date: /home/ingejohan/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/include/udemy_ros2_pkg/udemy_ros2_pkg
+[0.517s] -- Up-to-date: /home/ingejohan/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/include/udemy_ros2_pkg/udemy_ros2_pkg/action
+[0.517s] -- Up-to-date: /home/ingejohan/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/include/udemy_ros2_pkg/udemy_ros2_pkg/action/detail
+[0.517s] -- Up-to-date: /home/ingejohan/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/include/udemy_ros2_pkg/udemy_ros2_pkg/action/detail/navigate__rosidl_typesupport_fastrtps_c.h
+[0.517s] -- Up-to-date: /home/ingejohan/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/include/udemy_ros2_pkg/udemy_ros2_pkg/srv
+[0.517s] -- Up-to-date: /home/ingejohan/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/include/udemy_ros2_pkg/udemy_ros2_pkg/srv/detail
+[0.517s] -- Up-to-date: /home/ingejohan/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/include/udemy_ros2_pkg/udemy_ros2_pkg/srv/detail/turn_camera__rosidl_typesupport_fastrtps_c.h
+[0.518s] -- Up-to-date: /home/ingejohan/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/include/udemy_ros2_pkg/udemy_ros2_pkg/srv/detail/odd_even_check__rosidl_typesupport_fastrtps_c.h
+[0.518s] -- Up-to-date: /home/ingejohan/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/include/udemy_ros2_pkg/udemy_ros2_pkg/msg
+[0.518s] -- Up-to-date: /home/ingejohan/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/include/udemy_ros2_pkg/udemy_ros2_pkg/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[0.518s] -- Up-to-date: /home/ingejohan/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/lib/libudemy_ros2_pkg__rosidl_typesupport_fastrtps_c.so
+[0.518s] -- Up-to-date: /home/ingejohan/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/include/udemy_ros2_pkg/udemy_ros2_pkg
+[0.518s] -- Up-to-date: /home/ingejohan/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/include/udemy_ros2_pkg/udemy_ros2_pkg/action
+[0.518s] -- Up-to-date: /home/ingejohan/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/include/udemy_ros2_pkg/udemy_ros2_pkg/action/navigate.hpp
+[0.518s] -- Up-to-date: /home/ingejohan/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/include/udemy_ros2_pkg/udemy_ros2_pkg/action/detail
+[0.518s] -- Up-to-date: /home/ingejohan/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/include/udemy_ros2_pkg/udemy_ros2_pkg/action/detail/navigate__builder.hpp
+[0.518s] -- Up-to-date: /home/ingejohan/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/include/udemy_ros2_pkg/udemy_ros2_pkg/action/detail/navigate__struct.hpp
+[0.518s] -- Up-to-date: /home/ingejohan/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/include/udemy_ros2_pkg/udemy_ros2_pkg/action/detail/navigate__traits.hpp
+[0.518s] -- Up-to-date: /home/ingejohan/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/include/udemy_ros2_pkg/udemy_ros2_pkg/srv
+[0.518s] -- Up-to-date: /home/ingejohan/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/include/udemy_ros2_pkg/udemy_ros2_pkg/srv/turn_camera.hpp
+[0.518s] -- Up-to-date: /home/ingejohan/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/include/udemy_ros2_pkg/udemy_ros2_pkg/srv/odd_even_check.hpp
+[0.519s] -- Up-to-date: /home/ingejohan/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/include/udemy_ros2_pkg/udemy_ros2_pkg/srv/detail
+[0.519s] -- Up-to-date: /home/ingejohan/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/include/udemy_ros2_pkg/udemy_ros2_pkg/srv/detail/odd_even_check__struct.hpp
+[0.519s] -- Up-to-date: /home/ingejohan/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/include/udemy_ros2_pkg/udemy_ros2_pkg/srv/detail/odd_even_check__traits.hpp
+[0.519s] -- Up-to-date: /home/ingejohan/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/include/udemy_ros2_pkg/udemy_ros2_pkg/srv/detail/odd_even_check__builder.hpp
+[0.519s] -- Up-to-date: /home/ingejohan/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/include/udemy_ros2_pkg/udemy_ros2_pkg/srv/detail/turn_camera__builder.hpp
+[0.519s] -- Up-to-date: /home/ingejohan/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/include/udemy_ros2_pkg/udemy_ros2_pkg/srv/detail/turn_camera__struct.hpp
+[0.519s] -- Up-to-date: /home/ingejohan/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/include/udemy_ros2_pkg/udemy_ros2_pkg/srv/detail/turn_camera__traits.hpp
+[0.519s] -- Up-to-date: /home/ingejohan/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/include/udemy_ros2_pkg/udemy_ros2_pkg
+[0.519s] -- Up-to-date: /home/ingejohan/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/include/udemy_ros2_pkg/udemy_ros2_pkg/action
+[0.519s] -- Up-to-date: /home/ingejohan/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/include/udemy_ros2_pkg/udemy_ros2_pkg/action/detail
+[0.519s] -- Up-to-date: /home/ingejohan/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/include/udemy_ros2_pkg/udemy_ros2_pkg/action/detail/navigate__rosidl_typesupport_fastrtps_cpp.hpp
+[0.519s] -- Up-to-date: /home/ingejohan/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/include/udemy_ros2_pkg/udemy_ros2_pkg/action/detail/dds_fastrtps
+[0.519s] -- Up-to-date: /home/ingejohan/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/include/udemy_ros2_pkg/udemy_ros2_pkg/srv
+[0.519s] -- Up-to-date: /home/ingejohan/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/include/udemy_ros2_pkg/udemy_ros2_pkg/srv/detail
+[0.519s] -- Up-to-date: /home/ingejohan/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/include/udemy_ros2_pkg/udemy_ros2_pkg/srv/detail/odd_even_check__rosidl_typesupport_fastrtps_cpp.hpp
+[0.520s] -- Up-to-date: /home/ingejohan/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/include/udemy_ros2_pkg/udemy_ros2_pkg/srv/detail/turn_camera__rosidl_typesupport_fastrtps_cpp.hpp
+[0.520s] -- Up-to-date: /home/ingejohan/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/include/udemy_ros2_pkg/udemy_ros2_pkg/srv/detail/dds_fastrtps
+[0.520s] -- Up-to-date: /home/ingejohan/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/include/udemy_ros2_pkg/udemy_ros2_pkg/msg
+[0.520s] -- Up-to-date: /home/ingejohan/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/include/udemy_ros2_pkg/udemy_ros2_pkg/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[0.520s] -- Up-to-date: /home/ingejohan/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/lib/libudemy_ros2_pkg__rosidl_typesupport_fastrtps_cpp.so
+[0.520s] -- Up-to-date: /home/ingejohan/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/include/udemy_ros2_pkg/udemy_ros2_pkg
+[0.520s] -- Up-to-date: /home/ingejohan/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/include/udemy_ros2_pkg/udemy_ros2_pkg/action
+[0.520s] -- Up-to-date: /home/ingejohan/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/include/udemy_ros2_pkg/udemy_ros2_pkg/action/detail
+[0.520s] -- Up-to-date: /home/ingejohan/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/include/udemy_ros2_pkg/udemy_ros2_pkg/action/detail/navigate__type_support.c
+[0.520s] -- Up-to-date: /home/ingejohan/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/include/udemy_ros2_pkg/udemy_ros2_pkg/action/detail/navigate__rosidl_typesupport_introspection_c.h
+[0.520s] -- Up-to-date: /home/ingejohan/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/include/udemy_ros2_pkg/udemy_ros2_pkg/srv
+[0.520s] -- Up-to-date: /home/ingejohan/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/include/udemy_ros2_pkg/udemy_ros2_pkg/srv/detail
+[0.520s] -- Up-to-date: /home/ingejohan/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/include/udemy_ros2_pkg/udemy_ros2_pkg/srv/detail/odd_even_check__rosidl_typesupport_introspection_c.h
+[0.521s] -- Up-to-date: /home/ingejohan/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/include/udemy_ros2_pkg/udemy_ros2_pkg/srv/detail/turn_camera__type_support.c
+[0.521s] -- Up-to-date: /home/ingejohan/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/include/udemy_ros2_pkg/udemy_ros2_pkg/srv/detail/odd_even_check__type_support.c
+[0.521s] -- Up-to-date: /home/ingejohan/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/include/udemy_ros2_pkg/udemy_ros2_pkg/srv/detail/turn_camera__rosidl_typesupport_introspection_c.h
+[0.521s] -- Up-to-date: /home/ingejohan/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/include/udemy_ros2_pkg/udemy_ros2_pkg/msg
+[0.521s] -- Up-to-date: /home/ingejohan/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/include/udemy_ros2_pkg/udemy_ros2_pkg/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[0.521s] -- Up-to-date: /home/ingejohan/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/lib/libudemy_ros2_pkg__rosidl_typesupport_introspection_c.so
+[0.521s] -- Up-to-date: /home/ingejohan/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/lib/libudemy_ros2_pkg__rosidl_typesupport_c.so
+[0.521s] -- Up-to-date: /home/ingejohan/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/include/udemy_ros2_pkg/udemy_ros2_pkg
+[0.521s] -- Up-to-date: /home/ingejohan/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/include/udemy_ros2_pkg/udemy_ros2_pkg/action
+[0.521s] -- Up-to-date: /home/ingejohan/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/include/udemy_ros2_pkg/udemy_ros2_pkg/action/detail
+[0.521s] -- Up-to-date: /home/ingejohan/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/include/udemy_ros2_pkg/udemy_ros2_pkg/action/detail/navigate__rosidl_typesupport_introspection_cpp.hpp
+[0.521s] -- Up-to-date: /home/ingejohan/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/include/udemy_ros2_pkg/udemy_ros2_pkg/action/detail/navigate__type_support.cpp
+[0.521s] -- Up-to-date: /home/ingejohan/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/include/udemy_ros2_pkg/udemy_ros2_pkg/srv
+[0.521s] -- Up-to-date: /home/ingejohan/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/include/udemy_ros2_pkg/udemy_ros2_pkg/srv/detail
+[0.521s] -- Up-to-date: /home/ingejohan/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/include/udemy_ros2_pkg/udemy_ros2_pkg/srv/detail/turn_camera__rosidl_typesupport_introspection_cpp.hpp
+[0.522s] -- Up-to-date: /home/ingejohan/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/include/udemy_ros2_pkg/udemy_ros2_pkg/srv/detail/odd_even_check__type_support.cpp
+[0.522s] -- Up-to-date: /home/ingejohan/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/include/udemy_ros2_pkg/udemy_ros2_pkg/srv/detail/odd_even_check__rosidl_typesupport_introspection_cpp.hpp
+[0.522s] -- Up-to-date: /home/ingejohan/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/include/udemy_ros2_pkg/udemy_ros2_pkg/srv/detail/turn_camera__type_support.cpp
+[0.522s] -- Up-to-date: /home/ingejohan/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/lib/libudemy_ros2_pkg__rosidl_typesupport_introspection_cpp.so
+[0.522s] -- Up-to-date: /home/ingejohan/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/lib/libudemy_ros2_pkg__rosidl_typesupport_cpp.so
+[0.522s] -- Up-to-date: /home/ingejohan/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg/environment/pythonpath.sh
+[0.522s] -- Up-to-date: /home/ingejohan/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg/environment/pythonpath.dsv
+[0.522s] -- Up-to-date: /home/ingejohan/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/local/lib/python3.10/dist-packages/udemy_ros2_pkg-0.0.0-py3.10.egg-info
+[0.522s] -- Installing: /home/ingejohan/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/local/lib/python3.10/dist-packages/udemy_ros2_pkg-0.0.0-py3.10.egg-info/PKG-INFO
+[0.522s] -- Installing: /home/ingejohan/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/local/lib/python3.10/dist-packages/udemy_ros2_pkg-0.0.0-py3.10.egg-info/dependency_links.txt
+[0.522s] -- Installing: /home/ingejohan/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/local/lib/python3.10/dist-packages/udemy_ros2_pkg-0.0.0-py3.10.egg-info/top_level.txt
+[0.522s] -- Installing: /home/ingejohan/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/local/lib/python3.10/dist-packages/udemy_ros2_pkg-0.0.0-py3.10.egg-info/SOURCES.txt
+[0.522s] -- Up-to-date: /home/ingejohan/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/local/lib/python3.10/dist-packages/udemy_ros2_pkg
+[0.522s] -- Up-to-date: /home/ingejohan/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/local/lib/python3.10/dist-packages/udemy_ros2_pkg/udemy_ros2_pkg_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[0.522s] -- Up-to-date: /home/ingejohan/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/local/lib/python3.10/dist-packages/udemy_ros2_pkg/_udemy_ros2_pkg_s.ep.rosidl_typesupport_c.c
+[0.522s] -- Up-to-date: /home/ingejohan/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/local/lib/python3.10/dist-packages/udemy_ros2_pkg/libudemy_ros2_pkg__rosidl_generator_py.so
+[0.523s] -- Up-to-date: /home/ingejohan/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/local/lib/python3.10/dist-packages/udemy_ros2_pkg/action
+[0.523s] -- Up-to-date: /home/ingejohan/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/local/lib/python3.10/dist-packages/udemy_ros2_pkg/action/_navigate_s.c
+[0.523s] -- Up-to-date: /home/ingejohan/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/local/lib/python3.10/dist-packages/udemy_ros2_pkg/action/_navigate.py
+[0.523s] -- Up-to-date: /home/ingejohan/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/local/lib/python3.10/dist-packages/udemy_ros2_pkg/action/__init__.py
+[0.523s] -- Up-to-date: /home/ingejohan/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/local/lib/python3.10/dist-packages/udemy_ros2_pkg/_udemy_ros2_pkg_s.ep.rosidl_typesupport_fastrtps_c.c
+[0.523s] -- Up-to-date: /home/ingejohan/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/local/lib/python3.10/dist-packages/udemy_ros2_pkg/udemy_ros2_pkg_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[0.523s] -- Up-to-date: /home/ingejohan/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/local/lib/python3.10/dist-packages/udemy_ros2_pkg/_udemy_ros2_pkg_s.ep.rosidl_typesupport_introspection_c.c
+[0.523s] -- Up-to-date: /home/ingejohan/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/local/lib/python3.10/dist-packages/udemy_ros2_pkg/srv
+[0.523s] -- Up-to-date: /home/ingejohan/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/local/lib/python3.10/dist-packages/udemy_ros2_pkg/srv/_turn_camera.py
+[0.523s] -- Up-to-date: /home/ingejohan/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/local/lib/python3.10/dist-packages/udemy_ros2_pkg/srv/_odd_even_check_s.c
+[0.523s] -- Up-to-date: /home/ingejohan/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/local/lib/python3.10/dist-packages/udemy_ros2_pkg/srv/_turn_camera_s.c
+[0.523s] -- Up-to-date: /home/ingejohan/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/local/lib/python3.10/dist-packages/udemy_ros2_pkg/srv/_odd_even_check.py
+[0.523s] -- Up-to-date: /home/ingejohan/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/local/lib/python3.10/dist-packages/udemy_ros2_pkg/srv/__init__.py
+[0.523s] -- Up-to-date: /home/ingejohan/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/local/lib/python3.10/dist-packages/udemy_ros2_pkg/udemy_ros2_pkg_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[0.523s] -- Up-to-date: /home/ingejohan/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/local/lib/python3.10/dist-packages/udemy_ros2_pkg/__init__.py
+[0.547s] Listing '/home/ingejohan/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/local/lib/python3.10/dist-packages/udemy_ros2_pkg'...
+[0.547s] Listing '/home/ingejohan/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/local/lib/python3.10/dist-packages/udemy_ros2_pkg/action'...
+[0.547s] Listing '/home/ingejohan/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/local/lib/python3.10/dist-packages/udemy_ros2_pkg/srv'...
+[0.551s] -- Up-to-date: /home/ingejohan/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/local/lib/python3.10/dist-packages/udemy_ros2_pkg/udemy_ros2_pkg_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[0.551s] -- Up-to-date: /home/ingejohan/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/local/lib/python3.10/dist-packages/udemy_ros2_pkg/udemy_ros2_pkg_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[0.551s] -- Up-to-date: /home/ingejohan/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/local/lib/python3.10/dist-packages/udemy_ros2_pkg/udemy_ros2_pkg_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[0.551s] -- Up-to-date: /home/ingejohan/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/lib/libudemy_ros2_pkg__rosidl_generator_py.so
+[0.552s] -- Up-to-date: /home/ingejohan/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg/srv/OddEvenCheck.idl
+[0.552s] -- Up-to-date: /home/ingejohan/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg/srv/TurnCamera.idl
+[0.552s] -- Up-to-date: /home/ingejohan/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg/action/Navigate.idl
+[0.552s] -- Up-to-date: /home/ingejohan/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg/srv/OddEvenCheck.srv
+[0.552s] -- Up-to-date: /home/ingejohan/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg/srv/OddEvenCheck_Request.msg
+[0.552s] -- Up-to-date: /home/ingejohan/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg/srv/OddEvenCheck_Response.msg
+[0.552s] -- Up-to-date: /home/ingejohan/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg/srv/TurnCamera.srv
+[0.552s] -- Up-to-date: /home/ingejohan/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg/srv/TurnCamera_Request.msg
+[0.552s] -- Up-to-date: /home/ingejohan/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg/srv/TurnCamera_Response.msg
+[0.552s] -- Up-to-date: /home/ingejohan/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg/action/Navigate.action
+[0.552s] -- Up-to-date: /home/ingejohan/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/lib/udemy_ros2_pkg/obstacle_avoiding.py
+[0.552s] -- Up-to-date: /home/ingejohan/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/lib/udemy_ros2_pkg/inputs.py
+[0.552s] -- Up-to-date: /home/ingejohan/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/lib/udemy_ros2_pkg/joystick_ros2.py
+[0.553s] -- Up-to-date: /home/ingejohan/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/lib/udemy_ros2_pkg/publisher
+[0.553s] -- Up-to-date: /home/ingejohan/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/lib/udemy_ros2_pkg/subscriber
+[0.553s] -- Up-to-date: /home/ingejohan/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/lib/udemy_ros2_pkg/rpm_pub
+[0.553s] -- Up-to-date: /home/ingejohan/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/lib/udemy_ros2_pkg/speed_calc
+[0.553s] -- Up-to-date: /home/ingejohan/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/lib/udemy_ros2_pkg/service_server
+[0.553s] -- Up-to-date: /home/ingejohan/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/lib/udemy_ros2_pkg/service_client
+[0.553s] -- Up-to-date: /home/ingejohan/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/lib/udemy_ros2_pkg/turn_camera_service
+[0.554s] -- Up-to-date: /home/ingejohan/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/lib/udemy_ros2_pkg/turn_camera_client
+[0.554s] -- Up-to-date: /home/ingejohan/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/lib/udemy_ros2_pkg/action_server
+[0.554s] -- Up-to-date: /home/ingejohan/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/lib/udemy_ros2_pkg/action_client
+[0.554s] -- Up-to-date: /home/ingejohan/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg//launch
+[0.554s] -- Up-to-date: /home/ingejohan/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg//launch/bridge_config.yaml
+[0.554s] -- Up-to-date: /home/ingejohan/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg//launch/rpm_node.launch.py
+[0.554s] -- Up-to-date: /home/ingejohan/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg//launch/robot_model_simulation.launch.py
+[0.554s] -- Up-to-date: /home/ingejohan/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg//launch/wheeled_model_simulation.launch.py
+[0.554s] -- Up-to-date: /home/ingejohan/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg//launch/launch_project.launch.py
+[0.555s] -- Installing: /home/ingejohan/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg//launch/rc.launch.py
+[0.555s] -- Up-to-date: /home/ingejohan/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg//world
+[0.555s] -- Up-to-date: /home/ingejohan/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg//world/install
+[0.555s] -- Up-to-date: /home/ingejohan/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg//world/install/local_setup.ps1
+[0.555s] -- Up-to-date: /home/ingejohan/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg//world/install/local_setup.zsh
+[0.555s] -- Up-to-date: /home/ingejohan/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg//world/install/.colcon_install_layout
+[0.555s] -- Up-to-date: /home/ingejohan/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg//world/install/setup.zsh
+[0.556s] -- Up-to-date: /home/ingejohan/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg//world/install/setup.bash
+[0.556s] -- Up-to-date: /home/ingejohan/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg//world/install/_local_setup_util_ps1.py
+[0.556s] -- Up-to-date: /home/ingejohan/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg//world/install/local_setup.sh
+[0.556s] -- Up-to-date: /home/ingejohan/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg//world/install/setup.ps1
+[0.556s] -- Up-to-date: /home/ingejohan/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg//world/install/COLCON_IGNORE
+[0.556s] -- Up-to-date: /home/ingejohan/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg//world/install/setup.sh
+[0.557s] -- Up-to-date: /home/ingejohan/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg//world/install/local_setup.bash
+[0.557s] -- Up-to-date: /home/ingejohan/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg//world/install/_local_setup_util_sh.py
+[0.557s] -- Up-to-date: /home/ingejohan/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg//world/log
+[0.557s] -- Up-to-date: /home/ingejohan/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg//world/log/build_2023-10-03_14-46-04
+[0.557s] -- Up-to-date: /home/ingejohan/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg//world/log/build_2023-10-03_14-46-04/events.log
+[0.557s] -- Up-to-date: /home/ingejohan/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg//world/log/build_2023-10-03_14-46-04/logger_all.log
+[0.557s] -- Up-to-date: /home/ingejohan/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg//world/log/build_2023-10-03_14-31-42
+[0.557s] -- Up-to-date: /home/ingejohan/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg//world/log/build_2023-10-03_14-31-42/events.log
+[0.558s] -- Up-to-date: /home/ingejohan/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg//world/log/build_2023-10-03_14-31-42/logger_all.log
+[0.558s] -- Up-to-date: /home/ingejohan/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg//world/log/build_2023-10-03_14-34-47
+[0.558s] -- Up-to-date: /home/ingejohan/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg//world/log/build_2023-10-03_14-34-47/events.log
+[0.558s] -- Up-to-date: /home/ingejohan/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg//world/log/build_2023-10-03_14-34-47/logger_all.log
+[0.558s] -- Up-to-date: /home/ingejohan/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg//world/log/latest_build
+[0.558s] -- Up-to-date: /home/ingejohan/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg//world/log/latest
+[0.558s] -- Up-to-date: /home/ingejohan/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg//world/log/build_2023-10-03_14-29-44
+[0.558s] -- Up-to-date: /home/ingejohan/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg//world/log/build_2023-10-03_14-29-44/events.log
+[0.559s] -- Up-to-date: /home/ingejohan/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg//world/log/build_2023-10-03_14-29-44/logger_all.log
+[0.559s] -- Up-to-date: /home/ingejohan/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg//world/log/build_2023-09-27_17-06-55
+[0.559s] -- Up-to-date: /home/ingejohan/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg//world/log/build_2023-09-27_17-06-55/events.log
+[0.559s] -- Up-to-date: /home/ingejohan/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg//world/log/build_2023-09-27_17-06-55/logger_all.log
+[0.559s] -- Up-to-date: /home/ingejohan/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg//world/log/build_2023-10-03_14-37-38
+[0.559s] -- Up-to-date: /home/ingejohan/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg//world/log/build_2023-10-03_14-37-38/events.log
+[0.559s] -- Up-to-date: /home/ingejohan/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg//world/log/build_2023-10-03_14-37-38/logger_all.log
+[0.559s] -- Up-to-date: /home/ingejohan/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg//world/log/build_2023-10-03_14-36-09
+[0.559s] -- Up-to-date: /home/ingejohan/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg//world/log/build_2023-10-03_14-36-09/events.log
+[0.559s] -- Up-to-date: /home/ingejohan/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg//world/log/build_2023-10-03_14-36-09/logger_all.log
+[0.559s] -- Up-to-date: /home/ingejohan/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg//world/log/COLCON_IGNORE
+[0.559s] -- Up-to-date: /home/ingejohan/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg//world/log/build_2023-10-03_14-32-18
+[0.559s] -- Up-to-date: /home/ingejohan/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg//world/log/build_2023-10-03_14-32-18/events.log
+[0.559s] -- Up-to-date: /home/ingejohan/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg//world/log/build_2023-10-03_14-32-18/logger_all.log
+[0.559s] -- Up-to-date: /home/ingejohan/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg//world/wheeled_model_world.sdf
+[0.559s] -- Up-to-date: /home/ingejohan/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg//world/test_world.sdf
+[0.560s] -- Up-to-date: /home/ingejohan/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg//world/track.sdf
+[0.560s] -- Up-to-date: /home/ingejohan/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg//world/robot_model_world.sdf
+[0.560s] -- Up-to-date: /home/ingejohan/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg//world/SvgGazeboCones
+[0.560s] -- Up-to-date: /home/ingejohan/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg//world/SvgGazeboCones/svg_to_gazebo_cones.ps1
+[0.560s] -- Up-to-date: /home/ingejohan/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg//world/SvgGazeboCones/.git
+[0.560s] -- Up-to-date: /home/ingejohan/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg//world/SvgGazeboCones/.git/logs
+[0.560s] -- Up-to-date: /home/ingejohan/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg//world/SvgGazeboCones/.git/logs/HEAD
+[0.560s] -- Up-to-date: /home/ingejohan/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg//world/SvgGazeboCones/.git/logs/refs
+[0.561s] -- Up-to-date: /home/ingejohan/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg//world/SvgGazeboCones/.git/logs/refs/remotes
+[0.561s] -- Up-to-date: /home/ingejohan/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg//world/SvgGazeboCones/.git/logs/refs/remotes/origin
+[0.561s] -- Up-to-date: /home/ingejohan/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg//world/SvgGazeboCones/.git/logs/refs/remotes/origin/HEAD
+[0.561s] -- Up-to-date: /home/ingejohan/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg//world/SvgGazeboCones/.git/logs/refs/heads
+[0.561s] -- Up-to-date: /home/ingejohan/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg//world/SvgGazeboCones/.git/logs/refs/heads/master
+[0.561s] -- Up-to-date: /home/ingejohan/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg//world/SvgGazeboCones/.git/branches
+[0.562s] -- Up-to-date: /home/ingejohan/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg//world/SvgGazeboCones/.git/HEAD
+[0.562s] -- Up-to-date: /home/ingejohan/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg//world/SvgGazeboCones/.git/hooks
+[0.562s] -- Up-to-date: /home/ingejohan/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg//world/SvgGazeboCones/.git/hooks/push-to-checkout.sample
+[0.562s] -- Up-to-date: /home/ingejohan/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg//world/SvgGazeboCones/.git/hooks/post-update.sample
+[0.562s] -- Up-to-date: /home/ingejohan/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg//world/SvgGazeboCones/.git/hooks/update.sample
+[0.562s] -- Up-to-date: /home/ingejohan/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg//world/SvgGazeboCones/.git/hooks/prepare-commit-msg.sample
+[0.562s] -- Up-to-date: /home/ingejohan/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg//world/SvgGazeboCones/.git/hooks/fsmonitor-watchman.sample
+[0.563s] -- Up-to-date: /home/ingejohan/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg//world/SvgGazeboCones/.git/hooks/pre-commit.sample
+[0.563s] -- Up-to-date: /home/ingejohan/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg//world/SvgGazeboCones/.git/hooks/pre-rebase.sample
+[0.563s] -- Up-to-date: /home/ingejohan/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg//world/SvgGazeboCones/.git/hooks/commit-msg.sample
+[0.563s] -- Up-to-date: /home/ingejohan/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg//world/SvgGazeboCones/.git/hooks/pre-applypatch.sample
+[0.563s] -- Up-to-date: /home/ingejohan/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg//world/SvgGazeboCones/.git/hooks/pre-push.sample
+[0.564s] -- Up-to-date: /home/ingejohan/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg//world/SvgGazeboCones/.git/hooks/applypatch-msg.sample
+[0.564s] -- Up-to-date: /home/ingejohan/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg//world/SvgGazeboCones/.git/hooks/pre-receive.sample
+[0.564s] -- Up-to-date: /home/ingejohan/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg//world/SvgGazeboCones/.git/hooks/pre-merge-commit.sample
+[0.564s] -- Up-to-date: /home/ingejohan/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg//world/SvgGazeboCones/.git/config
+[0.564s] -- Up-to-date: /home/ingejohan/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg//world/SvgGazeboCones/.git/refs
+[0.564s] -- Up-to-date: /home/ingejohan/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg//world/SvgGazeboCones/.git/refs/remotes
+[0.564s] -- Up-to-date: /home/ingejohan/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg//world/SvgGazeboCones/.git/refs/remotes/origin
+[0.565s] -- Up-to-date: /home/ingejohan/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg//world/SvgGazeboCones/.git/refs/remotes/origin/HEAD
+[0.565s] -- Up-to-date: /home/ingejohan/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg//world/SvgGazeboCones/.git/refs/heads
+[0.565s] -- Up-to-date: /home/ingejohan/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg//world/SvgGazeboCones/.git/refs/heads/master
+[0.565s] -- Up-to-date: /home/ingejohan/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg//world/SvgGazeboCones/.git/refs/tags
+[0.565s] -- Up-to-date: /home/ingejohan/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg//world/SvgGazeboCones/.git/packed-refs
+[0.565s] -- Up-to-date: /home/ingejohan/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg//world/SvgGazeboCones/.git/index
+[0.565s] -- Up-to-date: /home/ingejohan/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg//world/SvgGazeboCones/.git/objects
+[0.566s] -- Up-to-date: /home/ingejohan/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg//world/SvgGazeboCones/.git/objects/pack
+[0.566s] -- Up-to-date: /home/ingejohan/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg//world/SvgGazeboCones/.git/objects/pack/pack-e736cabeec609a54e01826cf6f57072e80eb3850.idx
+[0.566s] -- Up-to-date: /home/ingejohan/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg//world/SvgGazeboCones/.git/objects/pack/pack-e736cabeec609a54e01826cf6f57072e80eb3850.pack
+[0.566s] -- Up-to-date: /home/ingejohan/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg//world/SvgGazeboCones/.git/objects/info
+[0.566s] -- Up-to-date: /home/ingejohan/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg//world/SvgGazeboCones/.git/info
+[0.566s] -- Up-to-date: /home/ingejohan/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg//world/SvgGazeboCones/.git/info/exclude
+[0.566s] -- Up-to-date: /home/ingejohan/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg//world/SvgGazeboCones/.git/description
+[0.567s] -- Up-to-date: /home/ingejohan/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg//world/SvgGazeboCones/README.md
+[0.567s] -- Up-to-date: /home/ingejohan/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg//world/SvgGazeboCones/sylinder_yellow.sdf
+[0.567s] -- Up-to-date: /home/ingejohan/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg//world/SvgGazeboCones/sylinder.sdf
+[0.567s] -- Up-to-date: /home/ingejohan/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg//world/SvgGazeboCones/gokart_track.xml
+[0.567s] -- Up-to-date: /home/ingejohan/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg//world/build
+[0.567s] -- Up-to-date: /home/ingejohan/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg//world/build/.built_by
+[0.568s] -- Up-to-date: /home/ingejohan/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg//world/build/COLCON_IGNORE
+[0.568s] -- Up-to-date: /home/ingejohan/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg//world/test.sdf
+[0.568s] -- Up-to-date: /home/ingejohan/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg//models
+[0.568s] -- Up-to-date: /home/ingejohan/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg//models/test
+[0.568s] -- Up-to-date: /home/ingejohan/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg//models/test/model.config
+[0.568s] -- Up-to-date: /home/ingejohan/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg//models/test/model.sdf
+[0.569s] -- Up-to-date: /home/ingejohan/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg//models/project_robot
+[0.569s] -- Up-to-date: /home/ingejohan/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg//models/project_robot/model.config
+[0.569s] -- Up-to-date: /home/ingejohan/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg//models/project_robot/model.sdf
+[0.569s] -- Up-to-date: /home/ingejohan/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg//models/car_blue
+[0.569s] -- Up-to-date: /home/ingejohan/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg//models/car_blue/model.config
+[0.569s] -- Up-to-date: /home/ingejohan/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg//models/car_blue/car_blue.sdf
+[0.569s] -- Up-to-date: /home/ingejohan/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg//models/RC
+[0.570s] -- Up-to-date: /home/ingejohan/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg//models/RC/TopReduced.dae
+[0.570s] -- Up-to-date: /home/ingejohan/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg//models/RC/model.config
+[0.570s] -- Up-to-date: /home/ingejohan/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg//models/RC/3.png
+[0.570s] -- Up-to-date: /home/ingejohan/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg//models/RC/5.png
+[0.570s] -- Up-to-date: /home/ingejohan/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg//models/RC/1.png
+[0.570s] -- Up-to-date: /home/ingejohan/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg//models/RC/BaseReduced.dae
+[0.571s] -- Up-to-date: /home/ingejohan/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg//models/RC/4.png
+[0.571s] -- Up-to-date: /home/ingejohan/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg//models/RC/2.png
+[0.571s] -- Up-to-date: /home/ingejohan/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg//models/RC/Wheel.dae
+[0.571s] -- Up-to-date: /home/ingejohan/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg//models/RC/model.sdf
+[0.571s] -- Up-to-date: /home/ingejohan/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg//models/wheeled_model
+[0.571s] -- Up-to-date: /home/ingejohan/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg//models/wheeled_model/model.config
+[0.572s] -- Up-to-date: /home/ingejohan/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg//models/wheeled_model/model.sdf
+[0.572s] -- Up-to-date: /home/ingejohan/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg//models/ground_plane
+[0.572s] -- Up-to-date: /home/ingejohan/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg//models/ground_plane/model.config
+[0.572s] -- Up-to-date: /home/ingejohan/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg//models/ground_plane/ground_plane.sdf
+[0.572s] -- Up-to-date: /home/ingejohan/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg//config
+[0.572s] -- Up-to-date: /home/ingejohan/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg//config/joy.yaml
+[0.573s] -- Up-to-date: /home/ingejohan/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/share/ament_index/resource_index/package_run_dependencies/udemy_ros2_pkg
+[0.573s] -- Up-to-date: /home/ingejohan/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/share/ament_index/resource_index/parent_prefix_path/udemy_ros2_pkg
+[0.573s] -- Up-to-date: /home/ingejohan/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg/environment/ament_prefix_path.sh
+[0.573s] -- Up-to-date: /home/ingejohan/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg/environment/ament_prefix_path.dsv
+[0.573s] -- Up-to-date: /home/ingejohan/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg/environment/path.sh
+[0.573s] -- Up-to-date: /home/ingejohan/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg/environment/path.dsv
+[0.574s] -- Up-to-date: /home/ingejohan/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg/local_setup.bash
+[0.574s] -- Up-to-date: /home/ingejohan/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg/local_setup.sh
+[0.574s] -- Up-to-date: /home/ingejohan/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg/local_setup.zsh
+[0.574s] -- Up-to-date: /home/ingejohan/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg/local_setup.dsv
+[0.574s] -- Installing: /home/ingejohan/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg/package.dsv
+[0.575s] -- Up-to-date: /home/ingejohan/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/share/ament_index/resource_index/packages/udemy_ros2_pkg
+[0.575s] -- Up-to-date: /home/ingejohan/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg/cmake/export_udemy_ros2_pkg__rosidl_generator_cExport.cmake
+[0.575s] -- Up-to-date: /home/ingejohan/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg/cmake/export_udemy_ros2_pkg__rosidl_generator_cExport-noconfig.cmake
+[0.575s] -- Up-to-date: /home/ingejohan/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg/cmake/export_udemy_ros2_pkg__rosidl_typesupport_fastrtps_cExport.cmake
+[0.575s] -- Up-to-date: /home/ingejohan/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg/cmake/export_udemy_ros2_pkg__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[0.576s] -- Up-to-date: /home/ingejohan/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg/cmake/export_udemy_ros2_pkg__rosidl_generator_cppExport.cmake
+[0.576s] -- Up-to-date: /home/ingejohan/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg/cmake/export_udemy_ros2_pkg__rosidl_typesupport_fastrtps_cppExport.cmake
+[0.576s] -- Up-to-date: /home/ingejohan/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg/cmake/export_udemy_ros2_pkg__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[0.576s] -- Up-to-date: /home/ingejohan/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg/cmake/udemy_ros2_pkg__rosidl_typesupport_introspection_cExport.cmake
+[0.577s] -- Up-to-date: /home/ingejohan/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg/cmake/udemy_ros2_pkg__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[0.577s] -- Up-to-date: /home/ingejohan/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg/cmake/udemy_ros2_pkg__rosidl_typesupport_cExport.cmake
+[0.577s] -- Up-to-date: /home/ingejohan/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg/cmake/udemy_ros2_pkg__rosidl_typesupport_cExport-noconfig.cmake
+[0.577s] -- Up-to-date: /home/ingejohan/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg/cmake/udemy_ros2_pkg__rosidl_typesupport_introspection_cppExport.cmake
+[0.578s] -- Up-to-date: /home/ingejohan/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg/cmake/udemy_ros2_pkg__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[0.578s] -- Up-to-date: /home/ingejohan/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg/cmake/udemy_ros2_pkg__rosidl_typesupport_cppExport.cmake
+[0.578s] -- Up-to-date: /home/ingejohan/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg/cmake/udemy_ros2_pkg__rosidl_typesupport_cppExport-noconfig.cmake
+[0.578s] -- Up-to-date: /home/ingejohan/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg/cmake/export_udemy_ros2_pkg__rosidl_generator_pyExport.cmake
+[0.578s] -- Up-to-date: /home/ingejohan/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg/cmake/export_udemy_ros2_pkg__rosidl_generator_pyExport-noconfig.cmake
+[0.578s] -- Up-to-date: /home/ingejohan/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg/cmake/rosidl_cmake-extras.cmake
+[0.579s] -- Up-to-date: /home/ingejohan/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.579s] -- Up-to-date: /home/ingejohan/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.579s] -- Up-to-date: /home/ingejohan/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg/cmake/ament_cmake_export_libraries-extras.cmake
+[0.579s] -- Up-to-date: /home/ingejohan/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg/cmake/ament_cmake_export_targets-extras.cmake
+[0.579s] -- Up-to-date: /home/ingejohan/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[0.579s] -- Up-to-date: /home/ingejohan/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[0.580s] -- Up-to-date: /home/ingejohan/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg/cmake/udemy_ros2_pkgConfig.cmake
+[0.580s] -- Up-to-date: /home/ingejohan/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg/cmake/udemy_ros2_pkgConfig-version.cmake
+[0.580s] -- Up-to-date: /home/ingejohan/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg/package.xml
+[0.580s] Invoked command in '/home/ingejohan/Workspaces/ros2_cpp_ws/build/udemy_ros2_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ingejohan/ros2_ws/install/rover:/home/ingejohan/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/ingejohan/Workspaces/ros2_cpp_ws/build/udemy_ros2_pkg
