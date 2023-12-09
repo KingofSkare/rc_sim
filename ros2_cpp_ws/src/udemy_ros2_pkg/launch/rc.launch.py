@@ -58,6 +58,7 @@ def generate_launch_description():
             output="screen"
         ), 
 
+        # Adding the joy node
         Node(
             package="joy",
             executable="joy_node",
@@ -73,6 +74,7 @@ def generate_launch_description():
             parameters=[joy_config_path]
         ),
 
+        # Adding the bridge
         Node(
             package="ros_gz_bridge",
             executable="parameter_bridge",
@@ -80,74 +82,24 @@ def generate_launch_description():
             output="screen"
         ), 
 
-        # Node(
-        #     package='tf2_ros',
-        #     executable='static_transform_publisher',
-        #     arguments=['x', 'y', 'z', 'yaw', 'pitch', 'roll', 'MR-Buggy3/odom', 'World']
-        # ),
-
-        # Node(
-        #     package='tf2_ros',
-        #     executable='static_transform_publisher',
-        #     arguments=['x', 'y', 'z', 'yaw', 'pitch', 'roll', 'MR-Buggy3/MR-Buggy3/Base', 'World']
-        # ),
-
-        # Node(
-        #     package='tf2_ros',
-        #     executable='static_transform_publisher',
-        #     arguments=['0.08', '0', '0.065', '0', '0', '0', 'MR-Buggy3/Base', 'lidar_link'],
+        # Adding a static transform publisher for the lidar
+        Node(
+            package='tf2_ros',
+            executable='static_transform_publisher',
+            arguments=['0.08', '0', '0.065', '0', '0', '0', 'MR-Buggy3/MR-Buggy3/Base', 'MR-Buggy3/lidar_link/gpu_lidar'],
             
-        # ),
+        ),
 
-        # Node(
-        #     package='tf2_ros',
-        #     executable='static_transform_publisher',
-        #     arguments=['0.112', '-0.1', '0', '0', '0', '0', 'World', 'MR-Buggy3/FrontRightWheel'],
-            
-        # ),
-
-        # Node(
-        #     package='tf2_ros',
-        #     executable='static_transform_publisher',
-        #     arguments=['0.112', '0.1', '0', '0', '0', '0', 'World', 'MR-Buggy3/FrontLeftWheel'],
-            
-        # ),
-
-        # Node(
-        #     package='tf2_ros',
-        #     executable='static_transform_publisher',
-        #     arguments=['-0.1135', '-0.10', '0', '0', '0', '0', 'World', 'MR-Buggy3/RearRightWheel'],
-            
-        # ),
-
-        # Node(
-        #     package='tf2_ros',
-        #     executable='static_transform_publisher',
-        #     arguments=['-0.1135', '0.10', '0', '0', '0', '0', 'World', 'MR-Buggy3/RearLeftWheel'],
-            
-        # ),
-
+       
+        # Adding the obstacle avoiding node
         Node(
             package='udemy_ros2_pkg',
             executable='obstacle_avoiding.py',
             output='screen'
         ),
 
-        # Node(
-        #     package='udemy_ros2_pkg',
-        #     executable='joystick_ros2.py',
-        #     output='screen'
-        # ),
 
-
-        # Node(
-        #     package='rviz2',
-        #     executable='rviz2',
-        #     name='rviz2',
-        #     arguments=['-d', '/home/ingejohan/Workspaces/ros2_cpp_ws/src/udemy_ros2_pkg/RViz2/config.rviz'],
-        #     output='screen'
-        # ),
-
+        # Adding the shutdown event handler
         RegisterEventHandler(
             event_handler=OnProcessExit(
                 target_action=simulation,
