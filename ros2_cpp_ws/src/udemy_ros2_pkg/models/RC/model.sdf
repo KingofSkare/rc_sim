@@ -285,14 +285,14 @@
         <ray>
           <scan>
             <horizontal>
-              <samples>8</samples>
+              <samples>80</samples>
               <resolution>1</resolution>
               <min_angle>-1.396263</min_angle>
               <max_angle>1.396263</max_angle>
             </horizontal>
             <vertical>
               <samples>1</samples>
-              <resolution>0.01</resolution>
+              <resolution>1</resolution>
               <min_angle>0</min_angle>
               <max_angle>0</max_angle>
             </vertical>

@@ -10,9 +10,9 @@
           </plane>
         </geometry>
         <material>
-          <ambiant>0 1 1 1</ambiant>
-          <diffuse>0 1 1 1</diffuse>
-          <specular>0 1 1 1</specular>
+          <ambient>0.20 0.20 0.20 1</ambient>
+          <diffuse>0.20 0.20 0.20 1</diffuse>
+          <specular>0.20 0.20 0.20 1</specular>
         </material>
       </visual>
       <collision name="collision_ground">

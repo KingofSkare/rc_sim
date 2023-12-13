@@ -41,6 +41,7 @@ class ObstacleAvoidingBot(Node):
         print(self.regions['A1']," / ",self.regions['A2']," / ",self.regions['A3']," / ",
             self.regions['A4']," / ",self.regions['A5']," / ",self.regions['A6']," / ",
             self.regions['A7']," / ",self.regions['A8'])
+            
         
     # Callback Publisher of velocities call every 0.2 seconds
     def send_cmd_vel(self):
