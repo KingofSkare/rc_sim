@@ -69,7 +69,7 @@
           </link>
       </model>
 
-      <!--Track for mapping and simple testing
+      Track for mapping and simple testing
       <model name='wall1'>
         <static>true</static>
         <pose>5 2 0 0 0 1.59</pose>
@@ -219,7 +219,7 @@
               </geometry>
           </collision>
       </link>
-    </model> -->
+    </model>
 
   <!-- This is the track for the racecar with cones -->
       <!-- <model name="blue_cone_0">
